@@ -14,9 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         
-        <Link href="/about">
-          hhhh
-        </Link>
+        afafs
       </main>
     </div>
   )
