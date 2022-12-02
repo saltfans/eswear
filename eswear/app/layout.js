@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           <Image src='/others/manifuns.png' alt='me' width='192' height='192' />
         </div>
 
-        <nav class='px-6 mt-2 text-blue-300'>
+        <nav class='px-6 mt-8 pb-8 text-blue-300'>
           <ul>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-36 h-10'>
               <Link href="/" className='flex justify-start'>

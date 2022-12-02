@@ -14,7 +14,7 @@ export default function Counter() {
             <EllipsisHorizontalIcon className="h-6 w-6 pr-1"/>
             <span className='pl-1'>More</span>
         </Popover.Button>
-        <Popover.Panel className='absolute z-10m w-48 bg-red-300'>
+        <Popover.Panel className='absolute w-48 bg-red-300'>
             <div className=''>
                 <div className=''>
                     <Link href="##"><p>My Profile with pic</p></Link>
