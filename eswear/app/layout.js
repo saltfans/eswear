@@ -5,6 +5,8 @@ import Image from 'next/legacy/image';
 import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTextIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
 // Counter use for client side! japievieno bilde kas bus profila bilde.
 import Counter from './Counter';
+import RightOne from './right-one';
+import Sugesstions from './sugesstions';
 export default function RootLayout({ children }) {
   return (
   <html>
@@ -14,7 +16,7 @@ export default function RootLayout({ children }) {
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3'>
 
         <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
-          <Image src='/others/manifuns.png' alt='me' width='192' height='192' />
+          <Image src='/others/manifuns.png' alt='me' width='192' height='192'  />
         </div>
 
         <nav class='px-6 mt-8 pb-8 text-blue-300'>
@@ -28,7 +30,7 @@ export default function RootLayout({ children }) {
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/notifications" className='flex justify-start'>
                 <BellAlertIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1'>Notifications</span>
+                <span className='pl-1 '>Notifications</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
@@ -56,11 +58,11 @@ export default function RootLayout({ children }) {
           </ul>
         </nav>
       </div> 
-      <div className='bg-red-500 rounded-lg shadow-xl min-h[50px] col-span-3 row-span-3'>{children}galvenais sadalas kontents</div>
-      <div className='bg-orange-500 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'>Balance & Misions Here</div>
-      <div className='bg-yellow-500 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'>Sugesstions here</div>
-      <div className='bg-orange-500 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'>Something else here</div>
-      <div className='bg-yellow-500 rounded-lg shadow-xl min-h[50px] col-span-6'>Foooter here</div>
+      <div className='bg-black/40 shadow-xl min-h[50px] col-span-3 row-span-3 border-x-4 border-b-4 border-sky-500'>{children}</div>
+      <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><RightOne /></div>
+      <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Sugesstions /></div>
+      <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'>Something else here</div>
+      <div className='bg-black/40 shadow-xl min-h[50px] col-span-6'>Foooter here</div>
       
 
       
