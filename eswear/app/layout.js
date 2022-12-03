@@ -7,6 +7,7 @@ import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTex
 import Counter from './Counter';
 import RightOne from './right-one';
 import Sugesstions from './sugesstions';
+import Gifts from './gifts';
 export default function RootLayout({ children }) {
   return (
   <html>
@@ -61,7 +62,7 @@ export default function RootLayout({ children }) {
       <div className='bg-black/40 shadow-xl min-h[50px] col-span-3 row-span-3 border-x-4 border-b-4 border-sky-500'>{children}</div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><RightOne /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Sugesstions /></div>
-      <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'>Something else here</div>
+      <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Gifts /></div>
       <div className='bg-black/40 shadow-xl min-h[50px] col-span-6'>Foooter here</div>
       
 
