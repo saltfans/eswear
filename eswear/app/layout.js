@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
   <html>
     <head />
     <body class='bg-gradient-to-r from-gray-500 via-purple-500 to-pink-500'>
+    <div class="container grid grid-rows-3 grid-flow-col gap-4 mx-auto px-4">
        <div class='w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm'>
 
         <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
@@ -56,7 +57,10 @@ export default function RootLayout({ children }) {
         </nav>
       </div> 
 
-      <div>{children}</div>
+      <div>{children}galvenais sadalas kontents</div>
+
+      <div></div>
+    </div>
     </body>
   </html>
   )
