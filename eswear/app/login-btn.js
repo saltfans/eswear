@@ -16,7 +16,7 @@ export default function Component({children}) {
   return (
     <>
       Not signed in <br />
-      <a href="/api/auth/signIn">login</a><br />
+      <button onClick={() => signIn()}>Sign in</button><br />
     </>
   );
 }
