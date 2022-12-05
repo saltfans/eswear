@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import '../styles/globals.css';
+import Providers from './providers';
 import { Fragment } from 'react';
 import Image from 'next/legacy/image';
 import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTextIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
@@ -8,27 +9,30 @@ import Counter from './Counter';
 import RightOne from './right-one';
 import Sugesstions from './sugesstions';
 import Gifts from './gifts';
+//login
+import LoginBtn from './login-btn';
 export default function RootLayout({ children }) {
   return (
+    
   <html>
     <head />
     <body class='bg-gradient-to-r from-gray-500 via-purple-500 to-pink-500'>
-      
+    <Providers>  
     <div>
-      <div className='container mx-auto grid grid-cols-2 border-b-2 border-sky-500'>
+      <div className='container mx-auto  grid grid-cols-2 border-b-2 border-sky-500'>
         <div className=' ' >
             <Image src='/others/manifuns.png' height='350' width='350' className='' />
         </div>
         <div className='float-left m-6'>
-          Login or Sign Up
+          <LoginBtn />
         </div>
       </div>
       <div>
 
       </div>
     </div>
-
-    <div class="container hidden grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
+    
+    <div class="container grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3'>
 
         <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
@@ -83,6 +87,7 @@ export default function RootLayout({ children }) {
 
       
     </div>
+    </Providers>
     </body>
   </html>
   )
