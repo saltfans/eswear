@@ -9,6 +9,7 @@ export default function Component({children}) {
         Signed in as {session.user.email} <br />
         <UserInformation data={session.user} />
         <button onClick={() => signOut()}>Sign out</button>
+        {children}
       </>
     )
   }
