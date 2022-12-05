@@ -2,7 +2,8 @@
 import { useSession, signIn, signOut } from "next-auth/react";
 import UserInformation from "../components/user-information";
 export default function Component() {
-  const { data: session } = useSession()
+  const { data: session, status } = useSession()
+  const loading = status === "loading"
   if (session) {
     return (
       <>
@@ -15,8 +16,8 @@ export default function Component() {
   return (
     <>
       Not signed in <br />
-      <button onClick={() => signIn()}>Sign in</button>
-      <button onClick={() => signIn("GoogleProvider")}>Sign in with Google</button>
+      <button onClick={() => signIn()}>Sign in</button><br />
+      <button onClick={() => signIn("GoogleProvider")}>Sign in with Google</button><br />
       <button onClick={() => signIn("FacebookProvider")}>Sign in with Facebook</button>
     </>
   )
