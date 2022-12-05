@@ -8,7 +8,7 @@ export const authOptions = {
     // ...add more providers here
     FacebookProvider({
         clientId: process.env.FACEBOOK_CLIENT_ID,
-        clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
+        clientSecret: process.env.FACEBOOK_CLIENT_SECRET
       }),
       GoogleProvider({
         clientId: process.env.GOOGLE_CLIENT_ID,
