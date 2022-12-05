@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         </div>
       </div>
       <div>
-        <p>{process.env.MANSTESTS}</p>
+        <p>{process.env.FACEBOOK_CLIENT_ID}</p>
       </div>
     </div>
     
