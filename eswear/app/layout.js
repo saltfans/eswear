@@ -18,7 +18,8 @@ export default function RootLayout({ children }) {
     <head />
     <body class='bg-gradient-to-r from-gray-500 via-purple-500 to-pink-500'>
     <Providers>  
-    <div>
+       
+    <div id="homepage">
       <div className='container mx-auto  grid grid-cols-2 border-b-2 border-sky-500'>
         <div className=' ' >
             <Image src='/others/manifuns.png' height='350' width='350' className='' />
@@ -28,11 +29,10 @@ export default function RootLayout({ children }) {
         </div>
       </div>
       <div>
-        <p>{process.env.FACEBOOK_CLIENT_ID}</p>
       </div>
     </div>
     
-    <div class="container grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
+    <div id='homepage2' class="container grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3'>
 
         <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
