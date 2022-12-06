@@ -4,9 +4,9 @@ import UserInformation from "../components/user-information";
 export default function Component({children}) {
   const { data: session } = useSession();
   if (session) {
-    return 
-            document.getElementById("homepage2").classlist.remove("hidden");
-        (<>Signed in as {session.user.email} <br />
+    return (
+      <>
+        Signed in as {session.user.email} <br />
         <UserInformation data={session.user} />
         <button onClick={() => signOut()}>Sign out</button>
         {children}
