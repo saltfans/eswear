@@ -1,7 +1,8 @@
 import Image from 'next/legacy/image';
+import LoginBtn from './login-btn';
 // app/page.js
 // This file maps to the index route (/)
-export default function Page() {
+export default async function Page() {
     return (
         <html>
         <head />
