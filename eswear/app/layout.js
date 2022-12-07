@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <head />
     <body class='bg-gradient-to-r from-gray-500 via-purple-500 to-pink-500'>
     <Providers>  
-       
+      
     <div id="homepage" class="">
       <div className='container mx-auto  grid grid-cols-2 border-b-2 border-sky-500'>
         <div className=' ' >
