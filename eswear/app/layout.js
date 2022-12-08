@@ -18,9 +18,9 @@ export default function RootLayout({ children }) {
     <head />
     <body class='bg-gradient-to-r from-gray-500 via-purple-500 to-pink-500'>
     <Providers>  
-      
-    <div id="homepage" class="hidden">
-      <div className='container mx-auto   grid grid-cols-2 border-b-2 border-sky-500'>
+       
+    <div id="homepage" class="">
+      <div className='container hidden mx-auto  grid grid-cols-2 border-b-2 border-sky-500'>
         <div className=' ' >
             <Image src='/others/manifuns.png' height='350' width='350' className='' />
         </div>
@@ -35,44 +35,44 @@ export default function RootLayout({ children }) {
     <div id='homepage2' class=" container grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3'>
 
-        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600 hidden sm:block">
+        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
           <Image src='/others/manifuns.png' alt='me' width='192' height='192'  />
         </div>
 
-        <nav class='px-6 mt-8 pb-8 text-blue-300 w-full relative sm:static'>
-          <ul class='fixed buttom-0 right-0 left-0'>
-            <li class='rounded border-2 p-1 mb-2 border-pink-500 sm:w-full h-10'>
+        <nav class='px-6 mt-8 pb-8 text-blue-300'>
+          <ul>
+            <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/" className='flex justify-start'>
                 <HomeIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 hidden sm:block'>Home</span>
+                <span className='pl-1'>Home</span>
               </Link>
             </li>
-            <li class='rounded border-2 p-1 mb-2 border-pink-500 sm:full h-10'>
+            <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/notifications" className='flex justify-start'>
                 <BellAlertIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 hidden sm:block'>Notifications</span>
+                <span className='pl-1 '>Notifications</span>
               </Link>
             </li>
-            <li class='rounded border-2 p-1 mb-2 border-pink-500 sm:w-full h-10'>
+            <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/swipe" className='flex justify-start'>
                 <HeartIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 hidden sm:block'>Swipe</span>
+                <span className='pl-1'>Swipe</span>
               </Link>
             </li>
-            <li class='rounded border-2 p-1 mb-2 border-pink-500 sm:w-full h-10'>
+            <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/post" className='flex justify-start'>
                 <PlusIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 hidden sm:block'>Create Post</span>
+                <span className='pl-1'>Create Post</span>
               </Link>
             </li>
-            <li class='rounded border-2 p-1 mb-2 border-pink-500 sm:w-full h-10'>
+            <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="messages" className='flex justify-start'>
                 <ChatBubbleBottomCenterTextIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 hidden sm:block'>Messages</span>
+                <span className='pl-1'>Messages</span>
               </Link>
             </li>
 
-            <li class='rounded border-2 p-1 mb-2 border-pink-500 sm:w-full h-10'>
+            <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Counter />
             </li>
           </ul>
