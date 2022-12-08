@@ -35,40 +35,40 @@ export default function RootLayout({ children }) {
     <div id='homepage2' class=" container grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3'>
 
-        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
+        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600 sm:hidden">
           <Image src='/others/manifuns.png' alt='me' width='192' height='192'  />
         </div>
 
-        <nav class='px-6 mt-8 pb-8 text-blue-300'>
-          <ul>
+        <nav class='px-6 mt-8 pb-8 text-blue-300 sm:w-full sm:relative'>
+          <ul class='sm:fixed'>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/" className='flex justify-start'>
                 <HomeIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1'>Home</span>
+                <span className='pl-1 sm:hidden'>Home</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/notifications" className='flex justify-start'>
                 <BellAlertIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 '>Notifications</span>
+                <span className='pl-1 sm:hidden'>Notifications</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/swipe" className='flex justify-start'>
                 <HeartIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1'>Swipe</span>
+                <span className='pl-1 sm:hidden'>Swipe</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/post" className='flex justify-start'>
                 <PlusIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1'>Create Post</span>
+                <span className='pl-1 sm:hidden'>Create Post</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="messages" className='flex justify-start'>
                 <ChatBubbleBottomCenterTextIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1'>Messages</span>
+                <span className='pl-1 sm:hidden'>Messages</span>
               </Link>
             </li>
 
