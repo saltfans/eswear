@@ -39,36 +39,36 @@ export default function RootLayout({ children }) {
           <Image src='/others/manifuns.png' alt='me' width='192' height='192'  />
         </div>
 
-        <nav class='px-6 mt-8 pb-8 text-blue-300 sm:w-full sm:relative'>
-          <ul class='sm:fixed'>
+        <nav class='px-6 mt-8 pb-8 text-blue-300 w-full relative sm:static'>
+          <ul class='fixed buttom-0 right-0 left-0'>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/" className='flex justify-start'>
                 <HomeIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 sm:hidden'>Home</span>
+                <span className='pl-1 hidden sm:block'>Home</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/notifications" className='flex justify-start'>
                 <BellAlertIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 sm:hidden'>Notifications</span>
+                <span className='pl-1 hidden sm:block'>Notifications</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/swipe" className='flex justify-start'>
                 <HeartIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 sm:hidden'>Swipe</span>
+                <span className='pl-1 hidden sm:block'>Swipe</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="/post" className='flex justify-start'>
                 <PlusIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 sm:hidden'>Create Post</span>
+                <span className='pl-1 hidden sm:block'>Create Post</span>
               </Link>
             </li>
             <li class='rounded border-2 p-1 mb-2 border-pink-500 w-full h-10'>
               <Link href="messages" className='flex justify-start'>
                 <ChatBubbleBottomCenterTextIcon className="h-6 w-6 pr-1"/>
-                <span className='pl-1 sm:hidden'>Messages</span>
+                <span className='pl-1 hidden sm:block'>Messages</span>
               </Link>
             </li>
 
