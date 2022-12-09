@@ -13,7 +13,7 @@ const Navigation = () => {
   ];
   const [active, setActive] = useState(0);
   return (
-    <div className="bg-black px-6 rounded-t-xl fixed inset-x-0 bottom-0">
+    <div className="bg-black px-6 rounded-t-xl fixed inset-x-0 bottom-0 sm:hidden">
       <ul className="w-full text-center">
     
         {Menus.map(({ name, href, icon }) => (
