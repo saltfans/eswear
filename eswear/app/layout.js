@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <Providers>  
        
     <div id="homepage" class="hidden">
-      <div className='container  mx-auto  grid grid-cols-2 border-b-2 border-sky-500'>
+      <div className='container  mx-auto list-item sm:grid grid-cols-2 border-b-2 border-sky-500'>
         <div className=' ' >
             <Image src='/others/manifuns.png' height='350' width='350' className='' />
         </div>
