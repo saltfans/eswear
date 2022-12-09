@@ -13,7 +13,7 @@ const Navigation = () => {
   ];
   const [active, setActive] = useState(0);
   return (
-    <div className="bg-white px-6 rounded-t-xl">
+    <div className="bg-white px-6 rounded-t-xl fixed left-0 right-0 bottom-0">
       <ul className="flex relative">
     
         {Menus.map(({ name, href, icon }) => (
