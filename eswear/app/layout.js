@@ -9,6 +9,7 @@ import Counter from './Counter';
 import RightOne from './right-one';
 import Sugesstions from './sugesstions';
 import Gifts from './gifts';
+import Navigation from './Navigation';
 //login
 import LoginBtn from './login-btn';
 export default function RootLayout({ children }) {
@@ -33,9 +34,9 @@ export default function RootLayout({ children }) {
     </div>
     
     <div id='homepage2' class=" container grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
-       <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3'>
+       <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3 hidden sm:block'>
 
-        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600 hidden sm:block">
+        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
           <Image src='/others/manifuns.png' alt='me' width='192' height='192'  />
         </div>
 
@@ -83,6 +84,8 @@ export default function RootLayout({ children }) {
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Sugesstions /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Gifts /></div>
       <div className='bg-black/40 shadow-xl min-h[50px] col-span-6'>Foooter here</div>
+      <Navigation />     
+
       
     </div>
     </Providers>
