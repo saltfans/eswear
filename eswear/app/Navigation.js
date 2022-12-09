@@ -23,9 +23,6 @@ const Navigation = () => {
               <span className="text-xl cursor-pointer duration-500">
                 {icon}
               </span>
-              <span className="translate-y-4 duration-700 opacity-100">
-                {name}
-              </span>
             </a>
             </Link>
           </li>
