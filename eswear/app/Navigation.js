@@ -1,16 +1,16 @@
 "use client";
 import Image from 'next/legacy/image';
-import { HeartIcon } from '@heroicons/react/24/solid';
+import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTextIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
 import React, { useState } from 'react';
 
 const Navigation = () => {
     const [active, setActive] = useState(0);
     const Menus = [
-        { name: "Home", icon: "home-outline", dis: "translate-x-0" },
-        { name: "Notification", icon: "home-outline", dis: "translate-x-0" },
-        { name: "Swipe", icon: "home-outline", dis: "translate-x-0" },
-        { name: "Nessage", icon: "home-outline", dis: "translate-x-0" },
-        { name: "More", icon: "home-outline", dis: "translate-x-0" },
+        { name: "Home", icon: "HomeIcon", dis: "translate-x-0" },
+        { name: "Notification", icon: "BellAlertIcon", dis: "translate-x-16" },
+        { name: "Swipe", icon: "HeartIcon", dis: "translate-x-32" },
+        { name: "Nessage", icon: "ChatBubbleBottomCenterTextIcon", dis: "translate-x-48" },
+        { name: "More", icon: "EllipsisHorizontalIcon", dis: "translate-x-64" },
     ];
 // app/page.js
 // This file maps to the index route (/)
@@ -25,7 +25,8 @@ const Navigation = () => {
                 {Menus.map((menu, i) => (
                     <li className='w-16'>
                         <a className={`flex flex-col text-center pt-6`} onClick={() => setActive(i)}>
-                            <span></span>
+                            <span><{menu.icon} /></span>
+                            <span>{menu.name}</span>
                         </a>
                     </li>
                 ))}
