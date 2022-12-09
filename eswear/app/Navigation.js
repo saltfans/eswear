@@ -17,7 +17,7 @@ const Navigation = () => {
       <ul className="flex relative m-auto">
     
         {Menus.map(({ name, href, icon }) => (
-          <li key={name} className="w-16">
+          <li key={name} className="w-16 inline-block">
             <Link href={href}>
             <a className="flex flex-col text-center p-4 text-sky-500">
               <span className="text-xl cursor-pointer duration-500">
