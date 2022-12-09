@@ -1,13 +1,15 @@
 "use client";
 import React, { useState } from "react";
+import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTextIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid';
+
 
 const Navigation = () => {
   const Menus = [
-    { name: "Home", icon: "home-outline", dis: "translate-x-0" },
-    { name: "Profile", icon: "person-outline", dis: "translate-x-16" },
-    { name: "Message", icon: "chatbubble-outline", dis: "translate-x-32" },
-    { name: "Photos", icon: "camera-outline", dis: "translate-x-48" },
-    { name: "Settings", icon: "settings-outline", dis: "translate-x-64" },
+    { name: "Home", icon: "HomeIcon", dis: "translate-x-0" },
+    { name: "Profile", icon: "BellAlertIcon", dis: "translate-x-16" },
+    { name: "Message", icon: "HeartIcon", dis: "translate-x-32" },
+    { name: "Photos", icon: "ChatBubbleBottomCenterTextIcon", dis: "translate-x-48" },
+    { name: "Settings", icon: "EllipsisHorizontalIcon", dis: "translate-x-64" },
   ];
   const [active, setActive] = useState(0);
   return (
