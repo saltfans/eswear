@@ -19,8 +19,8 @@ const Navigation = () => {
         {Menus.map(({ name, href, icon }) => (
           <li key={name} className="w-16">
             <Link href={href}>
-            <a className="flex flex-col text-center pt-6" onClick={() => setActive(i)}>
-              <span className={`text-xl cursor-pointer duration-500 ${ i === active && "-mt-6 text-white" }`}>
+            <a className="flex flex-col text-center pt-6">
+              <span className="text-xl cursor-pointer duration-500">
                 {icon}
               </span>
               <span className="translate-y-4 duration-700 opacity-100">
