@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Sugesstions /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Gifts /></div>
       <div className='bg-black/40 shadow-xl min-h[50px] col-span-6'>Foooter here</div>
-      <Navigation  className="flex relative"/>     
+      <Navigation  className="flex relative sm:hidden"/>     
 
       
     </div>
