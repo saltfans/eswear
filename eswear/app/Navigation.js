@@ -14,7 +14,7 @@ const Navigation = () => {
   const [active, setActive] = useState(0);
   return (
     <div className="bg-black px-6 rounded-t-xl fixed inset-x-0 bottom-0">
-      <ul className="flex relative m-auto">
+      <ul className="flex relative text-center">
     
         {Menus.map(({ name, href, icon }) => (
           <li key={name} className="w-16 inline-block">
