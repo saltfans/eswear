@@ -3,7 +3,7 @@ import '../styles/globals.css';
 import Providers from './providers';
 import { Fragment } from 'react';
 import Image from 'next/legacy/image';
-import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTextIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
+import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTextIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid';
 // Counter use for client side! japievieno bilde kas bus profila bilde.
 import Counter from './Counter';
 import RightOne from './right-one';

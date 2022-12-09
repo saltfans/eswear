@@ -5,11 +5,11 @@ import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTex
 
 const Navigation = () => {
   const Menus = [
-    { name: "Home", icon: "HomeIcon", dis: "translate-x-0" },
-    { name: "Profile", icon: "BellAlertIcon", dis: "translate-x-16" },
-    { name: "Message", icon: "HeartIcon", dis: "translate-x-32" },
-    { name: "Photos", icon: "ChatBubbleBottomCenterTextIcon", dis: "translate-x-48" },
-    { name: "Settings", icon: "EllipsisHorizontalIcon", dis: "translate-x-64" },
+    { name: "Home", href: "/", icon: <HomeIcon />, dis: "translate-x-0" },
+    { name: "News", href: "/notifications", icon: <BellAlertIcon />, dis: "translate-x-16" },
+    { name: "Swipe", href: "/swipe", icon: <HeartIcon />, dis: "translate-x-32" },
+    { name: "Chat", href: "/messages", icon: <ChatBubbleBottomCenterTextIcon />, dis: "translate-x-48" },
+    { name: "More", href: "#", icon: <EllipsisHorizontalIcon />, dis: "translate-x-64" },
   ];
   const [active, setActive] = useState(0);
   return (
@@ -30,27 +30,16 @@ const Navigation = () => {
         </span>
         {Menus.map((menu, i) => (
           <li key={i} className="w-16">
-            <a
-              className="flex flex-col text-center pt-6"
-              onClick={() => setActive(i)}
-            >
-              <span
-                className={`text-xl cursor-pointer duration-500 ${
-                  i === active && "-mt-6 text-white"
-                }`}
-              >
-                <ion-icon name={menu.icon}></ion-icon>
+            <Link href={href}>
+            <a className="flex flex-col text-center pt-6" onClick={() => setActive(i)}>
+              <span className={`text-xl cursor-pointer duration-500 ${ i === active && "-mt-6 text-white" }`}>
+                {menu.icon}
               </span>
-              <span
-                className={` ${
-                  active === i
-                    ? "translate-y-4 duration-700 opacity-100"
-                    : "opacity-0 translate-y-10"
-                } `}
-              >
+              <span className={` ${ active === i ? "translate-y-4 duration-700 opacity-100" : "opacity-0 translate-y-10" } `}>
                 {menu.name}
               </span>
             </a>
+            </Link>
           </li>
         ))}
       </ul>
