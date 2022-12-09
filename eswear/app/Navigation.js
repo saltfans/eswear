@@ -13,13 +13,13 @@ const Navigation = () => {
   ];
   const [active, setActive] = useState(0);
   return (
-    <div className="bg-black/50 px-6 rounded-t-xl fixed inset-x-0 bottom-0">
+    <div className="bg-black px-6 rounded-t-xl fixed inset-x-0 bottom-0">
       <ul className="flex relative m-auto">
     
         {Menus.map(({ name, href, icon }) => (
           <li key={name} className="w-16">
             <Link href={href}>
-            <a className="flex flex-col text-center p-4">
+            <a className="flex flex-col text-center p-4 text-sky-500">
               <span className="text-xl cursor-pointer duration-500">
                 {icon}
               </span>
