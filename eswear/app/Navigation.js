@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 const Navigation = () => {
   const Menus = [
-    { name: "Home", href: "/", icon: <HomeIcon className="h-4 w-4 mx-2"/> },
-    { name: "News", href: "/notifications", icon: <BellAlertIcon className="h-4 w-4 mx-2"/>},
-    { name: "Swipe", href: "/swipe", icon: <HeartIcon className="h-4 w-4 mx-2"/> },
-    { name: "Chat", href: "/messages", icon: <ChatBubbleBottomCenterTextIcon className="h-4 w-4 mx-2"/>},
-    { name: "More", href: "#", icon: <EllipsisHorizontalIcon className="h-4 w-4 mx-2"/> },
+    { name: "Home", href: "/", icon: <HomeIcon className="h-5 w-5 mx-2"/> },
+    { name: "News", href: "/notifications", icon: <BellAlertIcon className="h-5 w-5 mx-2"/>},
+    { name: "Swipe", href: "/swipe", icon: <HeartIcon className="h-5 w-5 mx-2"/> },
+    { name: "Chat", href: "/messages", icon: <ChatBubbleBottomCenterTextIcon className="h-5 w-5 mx-2"/>},
+    { name: "More", href: "#", icon: <EllipsisHorizontalIcon className="h-5 w-5 mx-2"/> },
   ];
   const [active, setActive] = useState(0);
   return (
