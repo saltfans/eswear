@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { HomeIcon, BellAlertIcon, HeartIcon, PlusIcon, ChatBubbleBottomCenterTextIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid';
-
+import Link from 'next/link';
 
 const Navigation = () => {
   const Menus = [
