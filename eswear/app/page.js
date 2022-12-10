@@ -11,24 +11,18 @@ export default function Page() {
             </div>
             <div>
                 <p>5 min ago...</p>
-                <p>Icon menu</p>
+                <p>Icon menu for copy link or report</p>
             </div>
         </div>
         <div className="w-full">
             <div>
                 <Image src='/others/profile1.jpg' alt='me' width='82' height='82' className='rounded-full' />
             </div>
+            <div>
+                Icons - Likes , Coment , Roses...
+                daudzums zem iconaam
+            </div>
         </div>
-        
-        <ul>
-            <li>MY STORY OR ADD STORY Before other poeple Storys!</li>
-            <br/>
-            <li>Next line Posts from Users by time include my ones..</li>
-            <li>Profile pic, username left </li>
-            <li>Date time on right with ...menu to copy link or report post!</li>
-            <li>POSTS</li>
-            <li>999Likes 50€ tips... all info from post Coments Like button u.c.</li>
-        </ul>
     </div>
     )
 }
