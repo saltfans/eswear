@@ -24,8 +24,8 @@ export default function Page() {
                 <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
             <div className=''>
-                <HeartIcon />
-                <ChatBubbleLeftEllipsisIcon /> 
+                <HeartIcon  className='h-14 w-14'/>
+                <ChatBubbleLeftEllipsisIcon className='h-14 w-14'/> 
                 <Image src='/others/roses/rose-red.png' width='26' height='26' />
                 
             </div>
