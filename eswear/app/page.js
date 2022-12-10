@@ -19,7 +19,7 @@ export default function Page() {
             
         </div>
         <div className="w-full">
-            <div>
+            <div className='w-full bg-white/30 '>
                 <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
             <div>
