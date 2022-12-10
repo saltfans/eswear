@@ -11,9 +11,9 @@ export default function Page() {
                 <storng className='text-sm font-sans font-medium text-left'>Username</storng><br/>
                 <span className='text-sm font-serif font-light tracking-tight text-left text-zinc-800'>Level : 1</span>
                 </div>
-                <div className='float-right'>
-                    <p className='text-sm font-serif font-light tracking-tight text-right'>5 min ago...</p>
-                    <p className='text-sm font-serif font-light tracking-tight text-right'>Icon menu for copy link or report</p>
+                <div className='float-right pr-2'>
+                    <p className='text-sm font-sans font-medium text-right'>Icon</p>
+                    <p className='text-sm font-serif font-light tracking-tight text-right'>5 min ago.</p>
                 </div>
             </div>
             
