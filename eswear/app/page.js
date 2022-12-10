@@ -5,9 +5,10 @@ export default function Page() {
     return (
     <div>
         <div className="w-full">
-            <div className="">
-                <Image src='/others/profile2.jpg' alt='me' width='82' height='82' className='rounded-full' />
-                <p>Username</p>
+            <div className="w-full bg-white/50 h-42">
+                <Image src='/others/profile2.jpg' alt='me' width='42' height='42' className='rounded-full float-left' />
+                <p>Username</p><br/>
+                <p>Level : 1</p>
             </div>
             <div>
                 <p>5 min ago...</p>
