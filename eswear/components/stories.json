@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "email": "davis@gmail.com",
+        "username": "davis123",
+        "prof_logo": "https://reqres.in/img/faces/12-images.jpg"
+    },
+    {
+        "id": 2,
+        "email": "davis@gmail.com",
+        "username": "davis123",
+        "prof_logo": "https://reqres.in/img/faces/12-images.jpg"
+    }
+]
