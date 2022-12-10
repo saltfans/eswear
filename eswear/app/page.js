@@ -1,10 +1,9 @@
 // app/page.js
 // This file maps to the index route (/)
-import Stories from "./stories";
 export default function Page() {
     return (
     <div>
-        <Stories />
+        
         <h1 className="text-sky-600">Default posts here!</h1>
         <ul>
             <li>MY STORY OR ADD STORY Before other poeple Storys!</li>
