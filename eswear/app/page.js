@@ -8,21 +8,21 @@ export default function Page() {
             <div className="w-full bg-white/50 h-42 flex">
                 <Image src='/others/profile2.jpg' alt='me' width='64' height='64' className='rounded-full float-left' />
                 <div className='pl-4'>
-                <storng>Username</storng><br/>
-                <span>Level : 1</span>
+                <storng className='text-sm font-sans font-medium text-left'>Username</storng><br/>
+                <span className='text-sm font-serif font-light tracking-tight text-left text-zinc-800'>Level : 1</span>
                 </div>
                 <div className='float-right'>
-                    <p>5 min ago...</p>
-                    <p>Icon menu for copy link or report</p>
+                    <p className='text-sm font-serif font-light tracking-tight text-right'>5 min ago...</p>
+                    <p className='text-sm font-serif font-light tracking-tight text-right'>Icon menu for copy link or report</p>
                 </div>
             </div>
             
         </div>
-        <div className="w-full">
-            <div className='w-full bg-white/30 '>
+        <div className="w-full bg-white/30 ">
+            <div className='w-full'>
                 <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
-            <div>
+            <div className=''>
                 Icons - Likes , Coment , Roses...
                 daudzums zem iconaam
             </div>
