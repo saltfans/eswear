@@ -6,7 +6,7 @@ export default function Page() {
     <div>
         <div className="w-full">
             <div className="">
-                <Image src='/others/profile2.jpg' alt='me' width='600' height='500' className='rounded-full' />
+                <Image src='/others/profile2.jpg' alt='me' width='82' height='82' className='rounded-full' />
                 <p>Username</p>
             </div>
             <div>
@@ -16,7 +16,7 @@ export default function Page() {
         </div>
         <div className="w-full">
             <div>
-                <Image src='/others/profile1.jpg' alt='me' width='82' height='82' className='rounded-full' />
+                <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
             <div>
                 Icons - Likes , Coment , Roses...
