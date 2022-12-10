@@ -1,6 +1,7 @@
 // app/page.js
 // This file maps to the index route (/)
 import Image from 'next/legacy/image';
+import { HeartIcon, ChatBubbleLeftEllipsisIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid';
 export default function Page() {
     return (
     <div>
@@ -23,8 +24,10 @@ export default function Page() {
                 <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
             <div className=''>
-                Icons - Likes , Coment , Roses...
-                daudzums zem iconaam
+                <HeartIcon />
+                <ChatBubbleLeftEllipsisIcon /> 
+                <Image src='/others/roses/rose-red.png' width='26' height='26' />
+                
             </div>
         </div>
     </div>
