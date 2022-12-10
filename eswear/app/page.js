@@ -11,7 +11,7 @@ export default function Page() {
                 <storng>Username</storng><br/>
                 <span>Level : 1</span>
                 </div>
-                <div>
+                <div className='float-right'>
                     <p>5 min ago...</p>
                     <p>Icon menu for copy link or report</p>
                 </div>
