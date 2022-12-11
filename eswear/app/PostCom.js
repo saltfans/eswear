@@ -17,7 +17,7 @@ const PostComments = () => {
                     <span className='text-[12px] font-serif font-light tracking-tight pl-2 pr-2 text-left'>Admin</span>
                     <div className='w-9/10'>
                         <p className='whitespace-normal  text-xs text-left normal-case text-ellipsis overflow-hidden'>
-                            Man jau patiik!! kaut aks jasfann iwnd lw awjd awlj foawnwof mjaowf nawofn sfnoa fnwaf  nfak w
+                            Man jau patiik!! kut aks jasfann iwnd lw awjd awlj foawnwof mjaowf nawofn sfnoa fnwaf  nfak w
                         </p>
                     </div>
                     <div className='flex relative w-full text-right w-28 align-text-top'>
