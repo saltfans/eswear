@@ -21,7 +21,7 @@ export default function Page() {
         </div>
         <div className="w-full bg-white/30 text-blue-300 ">
             <div className='w-full'>
-                <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
+                <Image src='/others/manifuns.png' alt='me' width='420' height='320' className='rounded-full' />
             </div>
             <div className='flex w-full items-stretch space-x-2 content-center flot-left'>
                 <div className='m-1 w-8 h-full place-items-center'>
