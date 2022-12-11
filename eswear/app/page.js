@@ -19,11 +19,11 @@ export default function Page() {
             </div>
             
         </div>
-        <div className="w-full bg-white/30 text-blue-300 ">
-            <div className='w-full'>
+        <div className="w-full  text-blue-300 ">
+            <div className='w-full bg-white/30'>
                 <Image src='/others/manifuns.png' alt='me' width='420' height='320' className='rounded-full' />
             </div>
-            <div className='flex w-full items-stretch space-x-2 content-center flot-left'>
+            <div className='flex w-full items-stretch space-x-2 bg-black/40 shadow-3xl content-center flot-left'>
                 <div className='m-1 w-8 h-full place-items-center'>
                 <HeartIcon  className='h-6 w-6'/>
                 <span className='text-[10px] font-serif font-light tracking-tight text-left text-zinc-800'>
