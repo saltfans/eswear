@@ -23,20 +23,20 @@ export default function Page() {
             <div className='w-full'>
                 <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
-            <div className='flex space-x-2 content-center flot-left'>
-                <div className='m-2 w-12 h-12 flex items-stretch'>
+            <div className='flex items-stretch space-x-2 content-center flot-left'>
+                <div className='m-2 w-12 h-12 place-items-center'>
                 <HeartIcon  className='h-8 w-8'/>
                 <span className='text-[12px] font-serif font-light tracking-tight text-left text-zinc-800'>
                     Likes
                 </span>
                 </div>
-                <div className='m-2 w-12 h-12 flex items-stretch'>
+                <div className='m-2 w-12 h-12 place-items-center'>
                 <ChatBubbleLeftEllipsisIcon className='h-8 w-8'/>
                 <span className='text-[12px] font-serif font-light tracking-tight text-left text-zinc-800'>
                     Coments
                 </span>
                 </div> 
-                <div className='m-2 w-12 h-12 flex items-stretch'>
+                <div className='m-2 w-12 h-12 place-items-center'>
                 <GiftIcon className='h-8 w-8' />
                 <span className='text-[12px] font-sans font-medium text-left bold text-gold-800'>
                     Gifts
