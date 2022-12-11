@@ -8,7 +8,7 @@ export default function Page() {
         <div className="w-full">
             <div className="w-full bg-black/40  flex">
                 <div className='pl-2 pt-2 pb-2 flex-initial'>
-                <Image src='/others/profile2.jpg' alt='me' width='54' height='54' className='rounded-full float-left' />
+                <Image src='/others/profile2.jpg' alt='me' width='54' height='54' className='rounded-full float-center' />
                 </div>
                 <div className='pl-1 pt-2 flex-initial align-text-top'>
                 <storng className='text-sm font-sans text-emerald-100 leading-3 font-medium text-left'>Username</storng><br/>
@@ -25,7 +25,7 @@ export default function Page() {
         </div>
         <div className="w-full  text-blue-300 ">
             <div className='w-full bg-white/30'>
-                <Image src='/others/saltfans.png' alt='me' width='420' height='320'  className='bg-black/24 float-center'/>
+                <Image src='/others/saltfans.png' alt='me' width='420' height='320'  className='bg-black/24'/>
             </div>
             <div className='flex w-full items-stretch space-x-2 bg-black/40 shadow-3xl content-center flot-left'>
                 <div className='m-1 w-auto h-full place-items-center'>

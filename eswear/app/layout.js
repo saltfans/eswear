@@ -36,9 +36,8 @@ export default function RootLayout({ children }) {
     <div id='homepage2' class=" container list-item sm:grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3 hidden sm:block'>
 
-        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 object-center
- border-pink-600 relative">
-          <Image src='/others/saltfans.png' alt='me' width='192' height='192' className='absolute inset-0' />
+        <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
+          <Image src='/others/manifans.png' alt='me' width='192' height='192'  />
         </div>
 
         <nav class='px-6 mt-8 pb-8 text-blue-300'>
@@ -84,7 +83,7 @@ export default function RootLayout({ children }) {
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><RightOne /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Sugesstions /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Gifts /></div>
-      <div className='bg-black/40 shadow-xl min-h[50px] col-span-6 hidden sm:block'>Foooter here telfenam paslepts</div>
+      <div className='bg-black/40 shadow-xl min-h[50px] col-span-6 hidden sm:block'>Foooter</div>
       <Navigation />     
 
       
