@@ -15,12 +15,12 @@ const PostComments = () => {
                     <span className='text-[10px] font-serif font-light tracking-tight pr-2 text-left'>Admin</span>
                     <div className=''>
                         <p>Man jau patiik!!</p>
-                    </div>
                     <div className='flex relative w-full text-right align-text-top'>
                         <div className='float-right flex-initial absolute right-0 top-0 flex flex-row-reverse'>
                             <EllipsisVerticalIcon className='h-5 w-5 text-emerald-300'/>
                             <p className='text-xs font-serif font-light tracking-tight text-right leading-3 text-emerald-300'>5 min ago.</p>
                         </div>
+                    </div>
                     </div>
                 </div>
         </div>
