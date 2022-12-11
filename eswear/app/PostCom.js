@@ -12,10 +12,10 @@ const PostComments = () => {
         <div className='w-full relative bg-black/20 px-4 py-2'>
                 <div className='rounded-lg bg-slate-500 flex w-full mx-1 px-1 py-1 my-0.5'>
                     <div className='flex-initial'>
-                        <Image src='/others/profile1.jpg' width='42' height='42' className='rounded-full'/>
+                        <Image src='/others/profile1.jpg' width='62' height='62' className='rounded-full'/>
                     </div>
                     <span className='text-[10px] font-serif font-light tracking-tight pl-2 pr-2 text-left'>Admin</span>
-                    <div className='w-4/5'>
+                    <div className='w-9/10'>
                         <p className='whitespace-normal  text-xs text-left normal-case text-ellipsis overflow-hidden'>
                             Man jau patiik!! kaut aks jasfann iwnd lw awjd awlj foawnwof mjaowf nawofn sfnoa fnwaf  nfak w
                         </p>
