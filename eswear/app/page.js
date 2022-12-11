@@ -6,8 +6,8 @@ export default function Page() {
     return (
     <div>
         <div className="w-full">
-            <div className="w-full bg-white/50 h-42 flex">
-                <Image src='/others/profile2.jpg' alt='me' width='64' height='64' className='rounded-full float-left' />
+            <div className="w-full bg-black/40  flex">
+                <Image src='/others/profile2.jpg' alt='me' width='54' height='54' className='rounded-full float-left m-2' />
                 <div className='pl-4'>
                 <storng className='text-sm font-sans font-medium text-left'>Username</storng><br/>
                 <span className='text-sm font-serif font-light tracking-tight text-left text-zinc-800'>Level : 1</span>
