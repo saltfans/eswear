@@ -26,7 +26,7 @@ export default function Page() {
         </div>
         <div className="w-full  text-blue-300 ">
             <div className='w-full grid relative bg-black/10 float-center h-auto items-center justify-items-center '>
-                <Image src='/others/saltfans.png' alt='me' width='420' height='320'  className='bg-black/24 float-center'/>
+                <Image src='/others/testpost.png' alt='me' width='420' height='320'  className='bg-black/24 float-center'/>
             </div>
             <div className='flex w-full items-stretch space-x-2 bg-black/40 shadow-3xl content-center flot-left'>
                 <div className='m-1 w-auto h-full place-items-center'>
