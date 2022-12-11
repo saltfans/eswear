@@ -2,6 +2,7 @@
 // This file maps to the index route (/)
 import Image from 'next/legacy/image';
 import { HeartIcon, ChatBubbleLeftEllipsisIcon, GiftIcon, EllipsisVerticalIcon } from '@heroicons/react/24/solid';
+import PostComments from './PostCom';
 export default function Page() {
     return (
     <div>
@@ -49,6 +50,7 @@ export default function Page() {
                 <Image src='/others/roses/rose-red.png' width='40' height='40' />
                 
             </div>
+            <PostComments />
         </div>
     </div>
     )
