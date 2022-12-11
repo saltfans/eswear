@@ -26,19 +26,19 @@ export default function Page() {
             <div className='flex'>
                 <div className='pl-2'>
                 <HeartIcon  className='h-8 w-8'/>
-                <span className='text-sm font-serif font-light tracking-tight text-left text-zinc-800'>
+                <span className='text-[12px] font-serif font-light tracking-tight text-left text-zinc-800'>
                     Likes
                 </span>
                 </div>
                 <div className='pl-2'>
                 <ChatBubbleLeftEllipsisIcon className='h-8 w-8'/>
-                <span className='text-sm font-serif font-light tracking-tight text-left text-zinc-800'>
+                <span className='text-[12px] font-serif font-light tracking-tight text-left text-zinc-800'>
                     Coments
                 </span>
                 </div> 
                 <div className='pl-2'>
                 <GiftIcon className='h-8 w-8' />
-                <span className='text-sm font-sans font-medium text-left bold text-gold-800'>
+                <span className='text-[12px] font-sans font-medium text-left bold text-gold-800'>
                     Gifts
                 </span>
                 </div>
