@@ -15,7 +15,7 @@ const PostComments = () => {
                         <Image src='/others/profile1.jpg' width='42' height='42' className='rounded-full'/>
                     </div>
                     <span className='text-[10px] font-serif font-light tracking-tight pl-2 pr-2 text-left'>Admin</span>
-                    <div className='w-2/3'>
+                    <div className='w-4/5'>
                         <p className='whitespace-normal  text-xs text-left normal-case text-ellipsis overflow-hidden'>
                             Man jau patiik!! kaut aks jasfann iwnd lw awjd awlj foawnwof mjaowf nawofn sfnoa fnwaf  nfak w
                         </p>
