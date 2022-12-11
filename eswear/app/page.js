@@ -12,11 +12,11 @@ export default function Page() {
                 </div>
                 <div className='pl-1 pt-2'>
                 <storng className='text-sm font-sans font-medium text-left'>Username</storng><br/>
-                <span className='text-sm font-serif font-light tracking-tight text-left text-zinc-800'>Level : 1</span>
+                <span className='text-sm font-serif font-light tracking-tight text-left text-black-400'>Level : 1</span>
                 </div>
                 <div className='float-right pr-2 pt-2'>
                     <p className='text-sm font-sans font-medium text-right'>Icon</p>
-                    <p className='text-sm font-serif font-light tracking-tight text-right'>5 min ago.</p>
+                    <p className='text-sm font-serif font-light tracking-tight text-right text-black-400'>5 min ago.</p>
                 </div>
             </div>
             
