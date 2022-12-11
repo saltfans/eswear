@@ -11,9 +11,15 @@ const PostComments = () => {
                 <div className='rounded-lg bg-slate-500 w-full mx-1 px-1 py-1 my-0.5'>
                     <Image src='/others/profile1.jpg' width='26' height='26' className='rounded-full'/>
                     <span className='text-[10px] font-serif font-light tracking-tight pr-2 text-left'>Admin</span>
-                    <div className='box-content'>
-                        <p>Man jau patiik! x,xsc</p>    
-                    </div> 
+                    <div className=''>
+                        <p>Man jau patiik!!</p>
+                    </div>
+                    <div className='flex relative w-full text-right align-text-top'>
+                        <div className='float-right pr-2 pt-2 flex-initial absolute right-0 top-0 flex flex-row-reverse'>
+                            <EllipsisVerticalIcon className='h-5 w-5 text-emerald-300'/>
+                            <p className='text-xs font-serif font-light tracking-tight text-right leading-3 text-emerald-300'>5 min ago.</p>
+                        </div>
+                    </div>
                 </div>
         </div>
     )
