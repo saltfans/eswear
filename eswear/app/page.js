@@ -1,7 +1,7 @@
 // app/page.js
 // This file maps to the index route (/)
 import Image from 'next/legacy/image';
-import { HeartIcon, ChatBubbleLeftEllipsisIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid';
+import { HeartIcon, ChatBubbleLeftEllipsisIcon, GiftIcon } from '@heroicons/react/24/solid';
 export default function Page() {
     return (
     <div>
@@ -26,6 +26,7 @@ export default function Page() {
             <div className='flex'>
                 <HeartIcon  className='h-8 w-8'/>
                 <ChatBubbleLeftEllipsisIcon className='h-8 w-8'/> 
+                <GiftIcon className='h-8 w-8' />
                 <Image src='/others/roses/rose-red.png' width='40' height='40' />
                 
             </div>
