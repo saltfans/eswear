@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3 hidden sm:block'>
 
         <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
-          <Image src='/others/manifuns.png' alt='me' width='192' height='192'  />
+          <Image src='/others/saltfans.png' alt='me' width='192' height='192'  />
         </div>
 
         <nav class='px-6 mt-8 pb-8 text-blue-300'>
