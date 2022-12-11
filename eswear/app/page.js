@@ -11,12 +11,12 @@ export default function Page() {
                 <Image src='/others/profile2.jpg' alt='me' width='54' height='54' className='rounded-full float-left' />
                 </div>
                 <div className='pl-1 pt-2 flex-initial'>
-                <storng className='text-sm font-sans font-medium text-left'>Username</storng><br/>
-                <span className='text-sm font-serif font-light tracking-tight text-left text-black-400'>Level : 1</span>
+                <storng className='text-sm font-sans leading-3 font-medium text-left'>Username</storng><br/>
+                <span className='text-sm font-serif font-light leading-3 tracking-tight text-left text-black-400'>Level : 1</span>
                 </div>
                 <div className='float-right pr-2 pt-2 flex-initial'>
-                    <p className='text-sm font-sans font-medium text-right'>Icon</p>
-                    <p className='text-sm font-serif font-light tracking-tight text-right text-black-400'>5 min ago.</p>
+                    <p className='text-sm font-sans font-medium text-right leading-3'>Icon</p>
+                    <p className='text-sm font-serif font-light tracking-tight text-right leading-3 text-black-400'>5 min ago.</p>
                 </div>
             </div>
             
