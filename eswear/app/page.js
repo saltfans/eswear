@@ -38,7 +38,7 @@ export default function Page() {
                 </div> 
                 <div className='m-2 w-12 h-12 place-items-center'>
                 <GiftIcon className='h-8 w-8' />
-                <span className='text-[12px] font-sans font-medium text-left bold text-gold-800'>
+                <span className='text-[12px] font-sans font-medium text-left bold text-yellow-400'>
                     Gifts
                 </span>
                 </div>
