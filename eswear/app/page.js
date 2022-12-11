@@ -25,19 +25,19 @@ export default function Page() {
             </div>
             <div className='flex items-stretch space-x-2 content-center flot-left'>
                 <div className='m-2 w-14 h-14 place-items-center'>
-                <HeartIcon  className='h-8 w-8'/>
+                <HeartIcon  className='h-6 w-6'/>
                 <span className='text-[12px] font-serif font-light tracking-tight text-left text-zinc-800'>
                     Likes
                 </span>
                 </div>
                 <div className='m-2 w-14 h-14 place-items-center'>
-                <ChatBubbleLeftEllipsisIcon className='h-8 w-8'/>
+                <ChatBubbleLeftEllipsisIcon className='h-6 w-6'/>
                 <span className='text-[12px] font-serif font-light tracking-tight text-left text-zinc-800'>
                     Coments
                 </span>
                 </div> 
                 <div className='m-2 w-14 h-14 place-items-center'>
-                <GiftIcon className='h-8 w-8' />
+                <GiftIcon className='h-6 w-6' />
                 <span className='text-[12px] font-sans font-medium text-left bold text-yellow-400'>
                     Gifts
                 </span>
