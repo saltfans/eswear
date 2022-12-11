@@ -23,7 +23,7 @@ export default function Page() {
             <div className='w-full'>
                 <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
-            <div className='flex items-stretch space-x-2 content-center flot-left'>
+            <div className='flex w-full items-stretch space-x-2 content-center flot-left'>
                 <div className='m-2 w-14 h-14 place-items-center'>
                 <HeartIcon  className='h-6 w-6'/>
                 <span className='text-[12px] font-serif font-light tracking-tight text-left text-zinc-800'>
