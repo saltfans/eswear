@@ -14,8 +14,8 @@ export default function Page() {
                 <storng className='text-sm font-sans leading-3 font-medium text-left'>Username</storng><br/>
                 <span className='text-sm font-serif font-light leading-3 tracking-tight text-left text-black-400'>Level : 1</span>
                 </div>
-                <div className='flex-none float-right text-right align-text-top'>
-                <div className='float-right pr-2 pt-2 flex-initial flex flex-row-reverse'>
+                <div className='flex-none relative text-right align-text-top'>
+                <div className='float-right pr-2 pt-2 flex-initial absolute right-0 top-0 flex flex-row-reverse'>
                     <EllipsisVerticalIcon className='h-5 w-5'/>
                     <p className='text-sm font-serif font-light tracking-tight text-right leading-3 text-black-400'>5 min ago.</p>
                 </div>
