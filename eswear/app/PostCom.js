@@ -12,7 +12,7 @@ const PostComments = () => {
         <div className='w-full relative bg-black/20 px-4 py-2'>
                 <div className='rounded-lg bg-slate-500 flex w-full mx-1 px-1 py-1 my-0.5'>
                     <div className='flex-initial'>
-                        <Image src='/others/profile1.jpg' width='32' height='32' className='rounded-full'/>
+                        <Image src='/others/profile1.jpg' width='42' height='42' className='rounded-full'/>
                     </div>
                     <span className='text-[10px] font-serif font-light tracking-tight pl-2 pr-2 text-left'>Admin</span>
                     <div className=''>
