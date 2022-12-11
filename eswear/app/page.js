@@ -7,7 +7,9 @@ export default function Page() {
     <div>
         <div className="w-full">
             <div className="w-full bg-black/40  flex">
-                <Image src='/others/profile2.jpg' alt='me' width='54' height='54' className='rounded-full float-left p-2' />
+                <div className='p-2'>
+                <Image src='/others/profile2.jpg' alt='me' width='54' height='54' className='rounded-full float-left' />
+                </div>
                 <div className='pl-4'>
                 <storng className='text-sm font-sans font-medium text-left'>Username</storng><br/>
                 <span className='text-sm font-serif font-light tracking-tight text-left text-zinc-800'>Level : 1</span>
