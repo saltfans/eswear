@@ -20,7 +20,7 @@ const PostComments = () => {
                             Man jau patiik!! kaut aks jasfann iwnd lw awjd awlj foawnwof mjaowf nawofn sfnoa fnwaf  nfak w
                         </p>
                     </div>
-                    <div className='flex relative w-full text-right align-text-top'>
+                    <div className='flex relative w-full text-right w-28 align-text-top'>
                         <div className='float-right flex-initial absolute right-0 top-0 flex flex-row-reverse'>
                             <EllipsisVerticalIcon className='h-5 w-5 text-emerald-300'/>
                             <p className='text-xs font-serif font-light tracking-tight text-right leading-3 text-emerald-300'>5 min ago.</p>
