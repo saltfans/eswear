@@ -3,6 +3,7 @@
 import Image from 'next/legacy/image';
 import { HeartIcon, ChatBubbleLeftEllipsisIcon, GiftIcon, EllipsisVerticalIcon } from '@heroicons/react/24/solid';
 import PostComments from './PostCom';
+import PostGifts from './PostGifts';
 export default function Page() {
     return (
     <div>
@@ -51,7 +52,7 @@ export default function Page() {
                 
             </div>
             <PostComments />
-            mauka
+            <PostGifts />
         </div>
     </div>
     )

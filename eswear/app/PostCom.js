@@ -27,6 +27,9 @@ const PostComments = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    add comment...
+                </div>
         </div>
     )
 }
