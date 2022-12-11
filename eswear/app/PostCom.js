@@ -16,7 +16,7 @@ const PostComments = () => {
                     </div>
                     <span className='text-[10px] font-serif font-light tracking-tight pl-2 pr-2 text-left'>Admin</span>
                     <div className=''>
-                        <p>Man jau patiik!!</p>
+                        <p className='text-xs'>Man jau patiik!!</p>
                     </div>
                     <div className='flex relative w-full text-right align-text-top'>
                         <div className='float-right flex-initial absolute right-0 top-0 flex flex-row-reverse'>
