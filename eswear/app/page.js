@@ -12,7 +12,7 @@ export default function Page() {
                 </div>
                 <div className='pl-1 pt-2 flex-initial align-text-top'>
                 <storng className='text-sm font-sans leading-3 font-medium text-left'>Username</storng>
-                <span className='text-sm font-serif font-light leading-3 tracking-tight text-left text-black-400'>Level : 1</span>
+                <p className='text-sm font-serif font-light leading-3  text-left text-black-400'>Level : 1</p>
                 </div>
                 <div className='flex relative w-full text-right align-text-top'>
                 <div className='float-right pr-2 pt-2 flex-initial absolute right-0 top-0 flex flex-row-reverse'>
