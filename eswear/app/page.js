@@ -23,10 +23,10 @@ export default function Page() {
             <div className='w-full'>
                 <Image src='/others/profile1.jpg' alt='me' width='420' height='320' className='rounded-full' />
             </div>
-            <div className=''>
-                <HeartIcon  className='h-14 w-14'/>
-                <ChatBubbleLeftEllipsisIcon className='h-14 w-14'/> 
-                <Image src='/others/roses/rose-red.png' width='26' height='26' />
+            <div className=' '>
+                <HeartIcon  className='h-8 w-8'/>
+                <ChatBubbleLeftEllipsisIcon className='h-8 w-8'/> 
+                <Image src='/others/roses/rose-red.png' width='40' height='40' />
                 
             </div>
         </div>
