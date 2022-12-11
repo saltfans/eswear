@@ -2,7 +2,6 @@
 // This file maps to the index route (/)
 import Image from 'next/legacy/image';
 import { HeartIcon, ChatBubbleLeftEllipsisIcon, GiftIcon, EllipsisVerticalIcon } from '@heroicons/react/24/solid';
-import PostTabs from './PostTabs';
 export default function Page() {
     return (
     <div>
@@ -29,7 +28,6 @@ export default function Page() {
                 <Image src='/others/saltfans.png' alt='me' width='420' height='320'  className='bg-black/24 float-center'/>
             </div>
             <div className='flex w-full items-stretch space-x-2 bg-black/40 shadow-3xl content-center flot-left'>
-                <PostTabs />
                 <div className='m-1 w-auto h-full place-items-center'>
                 <HeartIcon  className='h-6 w-6'/>
                 <span className='text-[10px] font-serif font-light tracking-tight pr-2 text-left'>
