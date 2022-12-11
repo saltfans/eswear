@@ -48,8 +48,6 @@ export default function Page() {
                     Gifts
                 </span>
                 </div>
-                <Image src='/others/roses/rose-red.png' width='40' height='40' />
-                
             </div>
             <PostComments />
             <PostGifts />
