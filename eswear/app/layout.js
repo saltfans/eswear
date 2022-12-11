@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <div id="homepage" class="hidden">
       <div className='container  mx-auto list-item sm:grid grid-cols-2 border-b-2 border-sky-500'>
         <div className=' ' >
-            <Image src='/others/saltfans.png' height='350' width='350' className='float-right' />
+            <Image src='/others/saltfans.png' height='350' width='350' className='' />
         </div>
         <div className='float-left m-6'>
           <LoginBtn />
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3 hidden sm:block'>
 
         <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
-          <Image src='/others/manifans.png' alt='me' width='192' height='192'  />
+          <Image src='/others/saltfans.png' alt='me' width='192' height='192'  />
         </div>
 
         <nav class='px-6 mt-8 pb-8 text-blue-300'>
@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><RightOne /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Sugesstions /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1'><Gifts /></div>
-      <div className='bg-black/40 shadow-xl min-h[50px] col-span-6 hidden sm:block'>Foooter</div>
+      <div className='bg-black/40 shadow-xl min-h[50px] col-span-6 hidden sm:block'>Foooter here telfenam paslepts</div>
       <Navigation />     
 
       
