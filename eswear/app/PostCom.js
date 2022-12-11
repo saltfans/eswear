@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/legacy/image';
+import { EllipsisVerticalIcon } from '@heroicons/react/24/solid';
+
 
 
 // app/page.js
