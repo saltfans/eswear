@@ -41,8 +41,8 @@ export default function Page() {
                 </span>
                 </div> 
                 <div className='m-1 w-auto h-full place-items-center'>
-                <GiftIcon className='h-6 w-6' />
-                <span className='text-[10px] font-sans font-medium text-left pr-2 bold text-yellow-400'>
+                <GiftIcon className='h-6 w-6 text-emerald-300' />
+                <span className='text-[10px] font-sans font-medium text-left pr-2 bold text-emerald-500'>
                     Gifts
                 </span>
                 </div>
