@@ -18,7 +18,7 @@ const PostGifts = () => {
                         <Image src='/others/roses/rose-purple.png' width='50' height='50'/>
                         <span>Purple Roses</span>
                         <Image src='/others/roses/rose-yellow.png' width='50' height='50'/>
-                        <span>Yellow Roses</span>
+                        <span>Yellow Rose s</span>
                     </div>
                 </div>
         </div>
