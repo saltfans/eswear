@@ -10,7 +10,7 @@ import { CheckBadgeIcon } from '@heroicons/react/24/solid';
 const PostGifts = () => {
     return (
         <div className='w-full relative bg-black/20 px-4 py-2'>
-                <div className='w-full rounded-lg bg-black/10 flex w-full mx-1 my-0.5'>
+                <div className='w-full rounded-lg bg-black/20 flex w-full mx-1 my-0.5'>
                     <div className='flex flex-wrap gap-3'>
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
