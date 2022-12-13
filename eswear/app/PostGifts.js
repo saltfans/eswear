@@ -15,7 +15,7 @@ const PostGifts = () => {
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
                             <div className='w-48 mx-w-xl p-2 
-                            bg-black/30 text-gray-600 rounded-md 
+                            bg-black/30 text-white-500 rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
                             peer-checked:ring-pink-500 
@@ -26,13 +26,80 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-red-500'>
                                             Red Roses
                                         </p>
-                                        <div className=''>
-                                            <CheckBadgeIcon className='w-5-h-5 text-red-500'/>
-                                        </div>
+                                        <CheckBadgeIcon className='w-5-h-5 text-red-500 bg-red-500'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
-                                        <p><span className='text-sm font-bold'>Šeit ir</span> Texts :0</p>
+                                        <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
                                         <p className='text-xs font-bold'>1,5€ / One</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <label className='cursor-pointer'>
+                            <input type='radio' className='peer sr-only' name='priceing'/>
+                            <div className='w-48 mx-w-xl p-2 
+                            bg-black/30 text-white-500 rounded-md 
+                            hover:shadow ring-2 ring-transparent 
+                            peer-checked:text-blue-300 
+                            peer-checked:ring-yellow-500 
+                            peer-checked:ring-offset-2'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='flex items-center'>
+                                        <Image src='/others/roses/rose-yellow.png' width='50' height='50'/>
+                                        <p className='text-xs font-semibold uppercase text-yellow-500'>
+                                            Yellow Roses
+                                        </p>
+                                        <CheckBadgeIcon className='w-5-h-5 text-yellow-500 bg-yellow-500'/>
+                                    </div>
+                                    <div className='flex items-end justify-between'>
+                                        <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
+                                        <p className='text-xs font-bold'>2,5€ / One</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <label className='cursor-pointer'>
+                            <input type='radio' className='peer sr-only' name='priceing'/>
+                            <div className='w-48 mx-w-xl p-2 
+                            bg-black/30 text-white-500 rounded-md 
+                            hover:shadow ring-2 ring-transparent 
+                            peer-checked:text-blue-300 
+                            peer-checked:ring-blue-500 
+                            peer-checked:ring-offset-2'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='flex items-center'>
+                                        <Image src='/others/roses/rose-blue-1.png' width='50' height='50'/>
+                                        <p className='text-xs font-semibold uppercase text-blue-500'>
+                                            Blue Roses
+                                        </p>
+                                        <CheckBadgeIcon className='w-5-h-5 text-blue-500 bg-blue-500'/>
+                                    </div>
+                                    <div className='flex items-end justify-between'>
+                                        <p><span className='text-sm font-bold'>Top 1 Gift!</span> Available</p>
+                                        <p className='text-xs font-bold'>5,00€ / One</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <label className='cursor-pointer'>
+                            <input type='radio' className='peer sr-only' name='priceing'/>
+                            <div className='w-48 mx-w-xl p-2 
+                            bg-black/30 text-white-500 rounded-md 
+                            hover:shadow ring-2 ring-transparent 
+                            peer-checked:text-blue-300 
+                            peer-checked:ring-purple-500 
+                            peer-checked:ring-offset-2'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='flex items-center'>
+                                        <Image src='/others/roses/rose-purple.png' width='50' height='50'/>
+                                        <p className='text-xs font-semibold uppercase text-purple-500'>
+                                            Purple Roses
+                                        </p>
+                                        <CheckBadgeIcon className='w-5-h-5 text-purple-500 bg-purple-500'/>
+                                    </div>
+                                    <div className='flex items-end justify-between'>
+                                        <p><span className='text-sm font-bold'>Top 3 Gift!</span> Available</p>
+                                        <p className='text-xs font-bold'>7,70€ / One</p>
                                     </div>
                                 </div>
                             </div>
