@@ -52,10 +52,10 @@ export default function Page() {
                 </div>
                 <div className='pt-3'>
                     <div className='grid bg-black/20 m-auto'>
-                        <div className='flex flex-wrap gap-3'>
+                        <div className='flex flex-wrap gap-1'>
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
-                            <div className='w-4/5 mx-w-xl p-2 
+                            <div className='w-11/12 mx-w-xl p-2 
                             bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
