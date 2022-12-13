@@ -17,6 +17,7 @@ const PostGifts = () => {
                                 <strong className='text-sm leading-3 text-left'>Red Roses</strong>
                                 <br/>
                                 <span className='text-xs leading-3 text-left'>Price : 1.5€</span>
+                                <input type='checkbox' id='checkbox-red' classname='bg-red-500' />
                             </div>
                         </div>
                         <div className='flex'>   
@@ -25,6 +26,7 @@ const PostGifts = () => {
                                 <strong className='text-sm leading-3 text-left'>Blue Roses</strong>
                                 <br/>
                                 <span className='text-xs leading-3 text-left'>Price : 7€</span>
+                                <input type='checkbox' id='checkbox-red' classname='bg-blue-500' />
                             </div>
                         </div>
                         <div className='flex'> 
@@ -33,6 +35,7 @@ const PostGifts = () => {
                                 <strong className='text-sm leading-3 text-left'>Purple Roses</strong>
                                 <br/>
                                 <span className='text-xs leading-3 text-left'>Price : 5€</span>
+                                <input type='checkbox' id='checkbox-red' classname='bg-purple-500' />
                             </div>
                         </div>
                         <div className='flex'> 
@@ -41,6 +44,7 @@ const PostGifts = () => {
                                 <strong className='text-sm leading-3 text-left'>Yellow Roses</strong>
                                 <br/>
                                 <span className='text-xs leading-3 text-left'>Price : 2.5€</span>
+                                <input type='checkbox' id='checkbox-red' classname='bg-yellow-500' />
                             </div>
                         </div>
                     </div>
