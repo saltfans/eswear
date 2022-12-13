@@ -50,16 +50,11 @@ export default function Page() {
                 </div>
                 <div className='pt-5'>
                     <div className='grid'>
-                        <span className='font-semibold'>Mission</span>
+                        <span className='font-semibold'>Mission Name</span>
                         <span className='font-thin'>uzdevums seit raksturots</span>
                     </div>
                 </div>
             </div>
-            <ul>
-                <li>Line 2 Earned Gifts on right.</li>
-                <li>Line 4 Mission name!</li>
-                <li>Line 5 Mission complated 57%/100%</li>
-            </ul>
         </div>
     )
 }
