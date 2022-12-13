@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/legacy/image';
 
-import { CheckBadgeIcon } from '@heroicons/react/24/outline';
+import { CheckBadgeIcon } from '@heroicons/react/24/solid';
 
 
 // app/page.js
@@ -52,17 +52,16 @@ const PostGifts = () => {
                     <div className='flex flex-wrap gap-3'>
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
-                            <div className='w-72 mx-w-xl p-5 
+                            <div className='w-48 mx-w-xl p-2 
                             bg-white text-gray-600 rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-sky-600 
                             peer-checked:ring-sky-400 
                             peer-checked:ring-offset-2'>
                                 <div className='flex flex-col gap-1'>
-                                <Image src='/others/roses/rose-red.png' width='50' height='50'/>
-                                    <div className='flex items-center justify-between'>
+                                    <div className='flex items-center'>
                                         <Image src='/others/roses/rose-red.png' width='50' height='50'/>
-                                        <p className='text-sm font-semibold uppercase text-red-500'>
+                                        <p className='text-xs font-semibold uppercase text-red-500'>
                                             Red Roses
                                         </p>
                                         <div className=''>
@@ -70,8 +69,8 @@ const PostGifts = () => {
                                         </div>
                                     </div>
                                     <div className='flex items-end justify-between'>
-                                        <p><span className='text-lg font-bold'>Texts</span> Texts cits</p>
-                                        <p className='text-sm font-bold'>1,5€ / One</p>
+                                        <p><span className='text-sm font-bold'>Texts</span> Texts cits</p>
+                                        <p className='text-xs font-bold'>1,5€ / One</p>
                                     </div>
                                 </div>
                             </div>
