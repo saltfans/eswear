@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/legacy/image';
 
+import { CheckBadgeIcon } from '@heroicons/react/24/outline';
 
 
 // app/page.js
@@ -47,6 +48,30 @@ const PostGifts = () => {
                                 <input type='checkbox' id='checkbox-red' classname='bg-yellow-500' />
                             </div>
                         </div>
+                    </div>
+                    <div className='flex flex-wrap gap-3'>
+                        <label className='cursor-pointer'>
+                            <input type='radio' className='peer sr-only' name='priceing'/>
+                            <div className='w-72 mx-w-xl p-5 
+                            bg-white text-gray-600 rounded-md 
+                            hover:shadow ring-2 ring-transparent 
+                            peer-checked:text-sky-600 
+                            peer-checked:ring-sky-400 
+                            peer-checked:ring-offset-2'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='flex items-center justify-between'>
+                                        <p className='text-sm font-semibold uppercase text-red-500'>Red Roses</p>
+                                        <div>
+                                            <CheckBadgeIcon />
+                                        </div>
+                                    </div>
+                                    <div className='flex items-end justify-between'>
+                                        <p><span className='text-lg font-bold'>Texts</span> Texts cits</p>
+                                        <p className='text-sm font-bold'>1,5€ / One</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
                     </div>
                 </div>
         </div>
