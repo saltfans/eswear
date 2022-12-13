@@ -26,7 +26,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-red-500'>
                                             Red Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-5-h-5 text-red-500 bg-red-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-red-500'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
@@ -49,7 +49,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-yellow-500'>
                                             Yellow Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-5-h-5 text-yellow-500 bg-yellow-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-yellow-500'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
@@ -72,7 +72,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-blue-500'>
                                             Blue Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-5-h-5 text-blue-500 bg-blue-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-blue-500'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <p><span className='text-sm font-bold'>Top 1 Gift!</span> Available</p>
@@ -95,7 +95,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-purple-500'>
                                             Purple Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-5-h-5 text-purple-500 bg-purple-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-purple-500'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <p><span className='text-sm font-bold'>Top 3 Gift!</span> Available</p>
