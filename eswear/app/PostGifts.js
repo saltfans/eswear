@@ -26,11 +26,11 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-red-500'>
                                             Red Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-red-500 ml-2'/>
+                                        <CheckBadgeIcon className='w-3 h-3 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
-                                        <p><span className='text-sm font-bold text-white-500'>Top 2 Gift!</span> Available</p>
-                                        <p className='text-xs font-bold text-white-500'>1,5€ / One</p>
+                                        <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
+                                        <p className='text-xs font-bold'>1,5€ / One</p>
                                     </div>
                                 </div>
                             </div>
@@ -52,8 +52,8 @@ const PostGifts = () => {
                                         <CheckBadgeIcon className='w-3 h-3 text-yellow-500 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
-                                        <p><span className='text-sm font-bold text-white'>Top 2 Gift!</span> Available</p>
-                                        <p className='text-xs font-bold text-white'>2,5€ / One</p>
+                                        <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
+                                        <p className='text-xs font-bold'>2,5€ / One</p>
                                     </div>
                                 </div>
                             </div>
