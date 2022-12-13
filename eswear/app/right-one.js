@@ -8,23 +8,23 @@ export default function Page() {
         <div class='grid place-items-center justify-items-center mt-2'>
             <div className='p-4 w-full text-white'>
                 <div className='flex justify-between items-center'>
-                    <Image src='/others/profile1.jpg' alt='me' width='40' height='40' className='rounded-full' />
+                    <Image src='/others/profile1.jpg' alt='me' width='60' height='60' className='rounded-full' />
                     <div>
                         <div className='grid'>
-                            <span className='font-thin text-lg'>Post</span>
-                            <span className='font-semibold text-lg'>23</span>
+                            <span className='text-sm'>Post</span>
+                            <span className='font-semibold text-sm'>23</span>
                         </div>
                     </div>
                     <div>
                         <div className='grid'>
-                            <span className='font-thin text-lg'>Followers</span>
-                            <span className='font-semibold text-lg'>790</span>
+                            <span className='text-sm'>Followers</span>
+                            <span className='font-semibold text-sm'>790</span>
                         </div>
                     </div>
                     <div>
                         <div className='grid'>
-                            <span className='font-thin text-lg'>Subscribers</span>
-                            <span className='font-semibold text-lg'>217</span>
+                            <span className='text-sm'>Subscribers</span>
+                            <span className='font-semibold text-sm'>217</span>
                         </div>
                     </div>
                 </div>
