@@ -45,8 +45,8 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className='w-full bg-black/40 h-12 flex items-center'>
-                    <span className='text-xs'>0 XP / 100 XP</span>
+                <div className='w-full bg-black/40 h-6 px-2 flex items-center'>
+                    <span className='text-xs text-center'>0 XP / 100 XP</span>
                 </div>
                 <div className='pt-5'>
                     <div className='grid'>
