@@ -8,7 +8,7 @@ export default function Page() {
         <div class='grid place-items-center justify-items-center mt-2'>
             <div className='p-8 w-full text-white'>
                 <div className='flex justify-between items-center'>
-                    <Image src='/others/profile1.jpg' alt='me' width='60' height='60' className='rounded-full' />
+                    <Image src='/others/profile1.jpg' alt='me' width='60' height='60' className='' />
                     <div>
                         <div className='grid'>
                             <span className='text-sm'>Post</span>
@@ -51,9 +51,31 @@ export default function Page() {
                     <span className='text-xs text-center'>0 XP / 100 XP</span>
                 </div>
                 <div className='pt-5'>
-                    <div className='grid'>
-                        <span className='font-semibold'>Mission Name</span>
-                        <span className='font-thin'>uzdevums seit raksturots</span>
+                    <div className='grid bg-black/20 m-auto'>
+                        <div className='flex flex-wrap gap-3'>
+                        <label className='cursor-pointer'>
+                            <input type='radio' className='peer sr-only' name='priceing'/>
+                            <div className='w-48 mx-w-xl p-2 
+                            bg-black/30 text-white rounded-md 
+                            hover:shadow ring-2 ring-transparent 
+                            peer-checked:text-blue-300 
+                            peer-checked:ring-pink-500 
+                            peer-checked:ring-offset-2'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='flex items-center'>
+                                        <Image src='/others/roses/rose-red.png' width='40' height='40'/>
+                                        <p className='text-xs font-semibold uppercase text-red-500'>
+                                            Red Roses
+                                        </p>
+                                    </div>
+                                    <div className='flex items-end justify-between'>
+                                        <span className='text-xs font-bold'>Top 2 Gift!</span>
+                                        <p className='text-xs font-bold'>1,5€ / One</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        </div>
                     </div>
                 </div>
             </div>
