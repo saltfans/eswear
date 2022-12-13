@@ -15,7 +15,7 @@ const PostGifts = () => {
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
                             <div className='w-48 mx-w-xl p-2 
-                            bg-black/30 text-white-500 rounded-md 
+                            bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
                             peer-checked:ring-pink-500 
@@ -26,11 +26,11 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-red-500'>
                                             Red Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-red-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-red-500 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
-                                        <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
-                                        <p className='text-xs font-bold'>1,5€ / One</p>
+                                        <p><span className='text-sm font-bold text-white-500'>Top 2 Gift!</span> Available</p>
+                                        <p className='text-xs font-bold text-white-500'>1,5€ / One</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ const PostGifts = () => {
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
                             <div className='w-48 mx-w-xl p-2 
-                            bg-black/30 text-white-500 rounded-md 
+                            bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
                             peer-checked:ring-yellow-500 
@@ -49,11 +49,11 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-yellow-500'>
                                             Yellow Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-yellow-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-yellow-500 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
-                                        <p><span className='text-sm font-bold'>Top 2 Gift!</span> Available</p>
-                                        <p className='text-xs font-bold'>2,5€ / One</p>
+                                        <p><span className='text-sm font-bold text-white'>Top 2 Gift!</span> Available</p>
+                                        <p className='text-xs font-bold text-white'>2,5€ / One</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const PostGifts = () => {
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
                             <div className='w-48 mx-w-xl p-2 
-                            bg-black/30 text-white-500 rounded-md 
+                            bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
                             peer-checked:ring-blue-500 
@@ -72,7 +72,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-blue-500'>
                                             Blue Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-blue-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-blue-500 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <p><span className='text-sm font-bold'>Top 1 Gift!</span> Available</p>
@@ -84,7 +84,7 @@ const PostGifts = () => {
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
                             <div className='w-48 mx-w-xl p-2 
-                            bg-black/30 text-white-500 rounded-md 
+                            bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
                             peer-checked:ring-purple-500 
@@ -95,7 +95,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-purple-500'>
                                             Purple Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-purple-500'/>
+                                        <CheckBadgeIcon className='w-3 h-3 text-purple-500 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <p><span className='text-sm font-bold'>Top 3 Gift!</span> Available</p>
