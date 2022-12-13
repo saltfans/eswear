@@ -29,7 +29,7 @@ export default function Page() {
             <div className='w-full grid relative bg-black/10 float-center h-auto items-center justify-items-center '>
                 <Image src='/others/testpost.png' alt='me' width='420' height='320'  className='bg-black/24 float-center'/>
             </div>
-            <div className='flex w-full items-stretch space-x-2 bg-black/40 shadow-3xl content-center flot-left'>
+            <div className='flex w-full items-stretch px-4 space-x-2 bg-black/40 shadow-3xl content-center flot-left'>
                 <div className='m-1 w-auto h-full place-items-center'>
                 <HeartIcon  className='h-6 w-6'/>
                 <span className='text-[10px] font-serif font-light tracking-tight pr-2 text-left'>

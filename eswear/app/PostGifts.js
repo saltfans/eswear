@@ -52,7 +52,7 @@ const PostGifts = () => {
                                         <CheckBadgeIcon className='w-3 h-3 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
-                                        <span className='text-xs font-bold'>Top 2 Gift!</span>
+                                        <span className='text-xs font-bold'>Top 4 Gift!</span>
                                         <p className='text-xs font-bold'>2,5€ / One</p>
                                     </div>
                                 </div>
@@ -87,13 +87,13 @@ const PostGifts = () => {
                             bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
-                            peer-checked:ring-purple-500 
+                            peer-checked:ring-pink-500 
                             peer-checked:ring-offset-2'>
                                 <div className='flex flex-col gap-1'>
                                     <div className='flex items-center'>
                                         <Image src='/others/roses/rose-purple.png' width='40' height='40'/>
-                                        <p className='text-xs font-semibold uppercase text-purple-500'>
-                                            Purple Roses
+                                        <p className='text-xs font-semibold uppercase text-pink-500'>
+                                            Pink Roses
                                         </p>
                                         <CheckBadgeIcon className='w-3 h-3 ml-2'/>
                                     </div>
