@@ -6,7 +6,7 @@ import { HeartIcon } from '@heroicons/react/24/solid';
 export default function Page() {
     return (
         <div class='grid place-items-center justify-items-center mt-2'>
-            <div className='p-4 w-full text-white'>
+            <div className='p-8 w-full text-white'>
                 <div className='flex justify-between items-center'>
                     <Image src='/others/profile1.jpg' alt='me' width='60' height='60' className='rounded-full' />
                     <div>
@@ -28,10 +28,21 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className='pt-5'>
-                    <div className='grid'>
-                        <span className='font-semibold text-lg'>texts</span>
-                        <span className='font-thin text-lg'>texts3222</span>
+                <div className='pt-5 flex justify-between items-center'>
+                    <div>
+                        <div className='grid'>
+                            <span className='font-semibold text-lg'>Balance : 370.60€</span>
+                            <span className='font-thin text-sm'>Level 17</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='grid'>
+                            <span className='font-semibold text-sm'>Earned Gifts</span>
+                            <span className='font-thin text-sm'>
+                                <Image src='/others/roses/rose-red.png' width='30' height='30'/>
+                                <Image src='/others/roses/rose-blue-1.png' width='30' height='30'/>
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div className='pt-5'>
@@ -42,10 +53,7 @@ export default function Page() {
                 </div>
             </div>
             <ul>
-                <li>Line 1-3 Profile pic on left.</li>
-                <li>Line 1 Balance € on right.</li>
                 <li>Line 2 Earned Gifts on right.</li>
-                <li>Line 3 My profile Level on right.</li>
                 <li>Line 4 Mission name!</li>
                 <li>Line 5 Mission complated 57%/100%</li>
             </ul>
