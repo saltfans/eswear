@@ -41,6 +41,8 @@ export default function Page() {
                             <span className='font-thin text-sm'>
                                 <Image src='/others/roses/rose-red.png' width='30' height='30'/>
                                 <Image src='/others/roses/rose-blue-1.png' width='30' height='30'/>
+                                <Image src='/others/roses/rose-yellow.png' width='30' height='30'/>
+                                <Image src='/others/roses/rose-purple.png' width='30' height='30'/>
                             </span>
                         </div>
                     </div>
