@@ -49,7 +49,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-yellow-500'>
                                             Yellow Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-yellow-500 ml-2'/>
+                                        <CheckBadgeIcon className='w-3 h-3 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <span className='text-xs font-bold'>Top 2 Gift!</span>
@@ -72,7 +72,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-blue-500'>
                                             Blue Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-blue-500 ml-2'/>
+                                        <CheckBadgeIcon className='w-3 h-3 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <span className='text-xs font-bold'>Top 1 Gift!</span>
@@ -95,7 +95,7 @@ const PostGifts = () => {
                                         <p className='text-xs font-semibold uppercase text-purple-500'>
                                             Purple Roses
                                         </p>
-                                        <CheckBadgeIcon className='w-3 h-3 text-purple-500 ml-2'/>
+                                        <CheckBadgeIcon className='w-3 h-3 ml-2'/>
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <span className='text-xs font-bold'>Top 3 Gift!</span>
