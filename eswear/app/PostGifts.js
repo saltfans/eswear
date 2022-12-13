@@ -59,10 +59,14 @@ const PostGifts = () => {
                             peer-checked:ring-sky-400 
                             peer-checked:ring-offset-2'>
                                 <div className='flex flex-col gap-1'>
+                                <Image src='/others/roses/rose-red.png' width='50' height='50'/>
                                     <div className='flex items-center justify-between'>
-                                        <p className='text-sm font-semibold uppercase text-red-500'>Red Roses</p>
-                                        <div>
-                                            <CheckBadgeIcon />
+                                        <Image src='/others/roses/rose-red.png' width='50' height='50'/>
+                                        <p className='text-sm font-semibold uppercase text-red-500'>
+                                            Red Roses
+                                        </p>
+                                        <div className=''>
+                                            <CheckBadgeIcon className='w-5-h-5 text-red-500'/>
                                         </div>
                                     </div>
                                     <div className='flex items-end justify-between'>
