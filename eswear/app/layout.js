@@ -80,7 +80,7 @@ export default function RootLayout({ children }) {
         </nav>
       </div> 
       <div className='bg-black/40 shadow-xl min-h[50px] col-span-3 row-span-3 border-x-4 border-b-4 border-sky-500'>{children}</div>
-      <div className='bg-black/60 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><RightOne /></div>
+      <div className='bg-black/80 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><RightOne /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><Sugesstions /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><Gifts /></div>
       <div className='bg-black/40 shadow-xl min-h[50px] col-span-6 hidden sm:block'>Foooter here telfenam paslepts</div>
