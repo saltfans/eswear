@@ -5,9 +5,9 @@ import { HeartIcon } from '@heroicons/react/24/solid';
 // This file maps to the index route (/)
 export default function Page() {
     return (
-        <div class='grid items-center justify-items-center mt-2'>
-            <div class="p-8 w-full text-white">
-            <div className='pt-3'>
+        <div class='grid items-center justify-items-center'>
+            <div class=" w-full text-white">
+            <div className=''>
                     <div className='grid bg-black/20 m-auto'>
                         <div className='flex flex-wrap gap-1'>
                         <label className='cursor-pointer'>
