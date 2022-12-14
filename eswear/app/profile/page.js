@@ -1,5 +1,5 @@
 import Image from 'next/legacy/image';
-import { HeartIcon } from '@heroicons/react/24/solid';
+import { HeartIcon, UserGroupIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 // app/page.js
 // This file maps to the index route (/)
@@ -102,7 +102,7 @@ export default function Page() {
                             peer-checked:ring-offset-2'>
                                 <div className='flex flex-col gap-1'>
                                     <div className='flex items-center'>
-                                        <Image src='/others/icons/sub.png' width='40' height='40'/>
+                                        <UserGroupIcon width='40' height='40' className='c'/>
                                         <p className='text-xs font-semibold text-red-500'>
                                             Get Your First Subscriber!
                                         </p>
