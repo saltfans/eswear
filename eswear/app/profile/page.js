@@ -53,6 +53,20 @@ export default function Page() {
                 <div className='w-full bg-black/40 h-6 px-2 flex items-center'>
                     <span className='text-xs text-center'>0 XP / 100 XP</span>
                 </div>
+                <div className='flex justify-between items-center'>
+                    <div>
+                        <div className='grid'>
+                            <span className='font-semibold text-lg'>Balance : 370.60€</span>
+                            <span className='font-thin text-sm'>Level 17</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='grid'>
+                            <span className='font-semibold text-lg'>Balance : 370.60€</span>
+                            <span className='font-thin text-sm'>Level 17</span>
+                        </div>
+                    </div>
+                </div>
                 <div className='pt-3'>
                     <div className='grid bg-black/20 m-auto'>
                         <div className='flex flex-wrap gap-1'>
