@@ -76,7 +76,7 @@ export default function Page() {
                             bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
-                            peer-checked:ring-pink-500 
+                            peer-checked:ring-kkkk-500 
                             peer-checked:ring-offset-2'>
                                 <div className='flex flex-col gap-1'>
                                     <div className='flex items-center'>
@@ -87,7 +87,51 @@ export default function Page() {
                                     </div>
                                     <div className='flex items-end justify-between'>
                                         <span className='text-xs font-bold'>You will get :</span>
-                                        <p className='text-xs font-bold'>150 XP</p>
+                                        <p className='text-xs font-bold'>125 XP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <label className='cursor-pointer'>
+                            <input type='radio' className='peer sr-only' name='priceing'/>
+                            <div className='w-11/12 mx-w-xl p-2 
+                            bg-black/30 text-white rounded-md 
+                            hover:shadow ring-2 ring-transparent 
+                            peer-checked:text-blue-300 
+                            peer-checked:ring-pink-500 
+                            peer-checked:ring-offset-2'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='flex items-center'>
+                                        <Image src='/others/icons/sub.png' width='40' height='40'/>
+                                        <p className='text-xs font-semibold text-red-500'>
+                                            Get Your First Subscriber!
+                                        </p>
+                                    </div>
+                                    <div className='flex items-end justify-between'>
+                                        <span className='text-xs font-bold'>You will get :</span>
+                                        <p className='text-xs font-bold'>225 XP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <label className='cursor-pointer'>
+                            <input type='radio' className='peer sr-only' name='priceing'/>
+                            <div className='w-11/12 mx-w-xl p-2 
+                            bg-black/30 text-white rounded-md 
+                            hover:shadow ring-2 ring-transparent 
+                            peer-checked:text-blue-300 
+                            peer-checked:ring-pink-500 
+                            peer-checked:ring-offset-2'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='flex items-center'>
+                                        <Image src='/others/roses/rose-red.png' width='40' height='40'/>
+                                        <p className='text-xs font-semibold text-red-500'>
+                                            Create 5 awsome profile posts!
+                                        </p>
+                                    </div>
+                                    <div className='flex items-end justify-between'>
+                                        <span className='text-xs font-bold'>You will get :</span>
+                                        <p className='text-xs font-bold'>175 XP</p>
                                     </div>
                                 </div>
                             </div>
