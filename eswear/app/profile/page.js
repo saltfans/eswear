@@ -1,6 +1,6 @@
 import Image from 'next/legacy/image';
-
-import { HeartIcon, GiftIcon, HandThumbUpIcon, HandThumbDownIcon, FireIcon, ArrowUturnLeftIcon } from '@heroicons/react/24/solid'
+import { HeartIcon } from '@heroicons/react/24/solid';
+import Link from 'next/link';
 // app/page.js
 // This file maps to the index route (/)
 export default function Page() {
