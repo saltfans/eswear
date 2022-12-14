@@ -9,7 +9,7 @@ export default function Page() {
             <div class=" w-full h-full text-white">
                     <div className='grid bg-black/20 m-auto '>
                         <div className='flex flex-wrap h-full gap-1'>
-                        <label className='cursor-pointer'>
+                        <label className='cursor-pointer w-full h-full'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
                             <div className='w-full mx-w-xl p-2 
                             bg-black/30 text-white rounded-md 
