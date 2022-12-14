@@ -102,7 +102,7 @@ export default function Page() {
                             peer-checked:ring-offset-2'>
                                 <div className='flex flex-col gap-1'>
                                     <div className='flex items-center'>
-                                        <UserGroupIcon width='40' height='40' className='c'/>
+                                        <UserGroupIcon  className='text-red-500 w-8 h-8'/>
                                         <p className='text-xs font-semibold text-red-500'>
                                             Get Your First Subscriber!
                                         </p>
