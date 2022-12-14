@@ -80,6 +80,7 @@ export default function Page() {
                 </div>
                 <div className='pt-3'>
                     <div className='grid bg-black/20 m-auto'>
+                        <span className='text-semibold text-white'>MISSIONS</span>
                         <div className='flex flex-wrap gap-1'>
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
