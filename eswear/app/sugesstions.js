@@ -8,11 +8,11 @@ export default function Page() {
         <div class='grid items-center justify-items-center'>
             <div class=" w-full text-white">
             <div className=''>
-                    <div className='grid bg-black/20 m-auto'>
-                        <div className='flex flex-wrap gap-1'>
+                    <div className='grid bg-black/20 m-auto '>
+                        <div className='flex flex-wrap w-11/12 gap-1'>
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
-                            <div className='w-11/12 mx-w-xl p-2 
+                            <div className='w-full mx-w-xl p-2 
                             bg-black/30 text-white rounded-md 
                             hover:shadow ring-2 ring-transparent 
                             peer-checked:text-blue-300 
@@ -20,7 +20,7 @@ export default function Page() {
                             peer-checked:ring-offset-2'>
                                 <div className='flex flex-col gap-1'>
                                     <div className='flex items-center'>
-                                        <Image src='/others/profile1.jpg' width='40' height='40'/>
+                                        <Image src='/others/profile2.jpg' width='40' height='40'/>
                                         <p className='text-xs font-semibold text-red-500'>
                                             Profile Category.
                                         </p>
@@ -35,8 +35,6 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <Image src='/others/profile2.jpg' alt='me' width='82' height='82' className='rounded-full' />
-
             </div>
         </div>
     )
