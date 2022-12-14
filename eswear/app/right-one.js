@@ -1,5 +1,6 @@
 import Image from 'next/legacy/image';
 import { HeartIcon } from '@heroicons/react/24/solid';
+import Link from 'next/link';
 
 // app/page.js
 // This file maps to the index route (/)
@@ -7,8 +8,11 @@ export default function Page() {
     return (
         <div class='grid place-items-center justify-items-center mt-2'>
             <div className='p-8 w-full text-white'>
+                
                 <div className='flex justify-between items-center'>
+                <Link href='/profile' >
                     <Image src='/others/profile1.jpg' alt='me' width='80' height='80' className='' />
+                    </Link>
                     <div>
                         <div className='grid'>
                             <span className='text-sm'>Post</span>
