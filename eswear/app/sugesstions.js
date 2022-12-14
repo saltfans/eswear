@@ -5,11 +5,10 @@ import { HeartIcon } from '@heroicons/react/24/solid';
 // This file maps to the index route (/)
 export default function Page() {
     return (
-        <div class='grid items-center justify-items-center'>
-            <div class=" w-full text-white">
-            <div className=''>
+        <div class='grid items-center h-full justify-items-center'>
+            <div class=" w-full h-full text-white">
                     <div className='grid bg-black/20 m-auto '>
-                        <div className='flex flex-wrap w-11/12 gap-1'>
+                        <div className='flex flex-wrap h-full gap-1'>
                         <label className='cursor-pointer'>
                             <input type='radio' className='peer sr-only' name='priceing'/>
                             <div className='w-full mx-w-xl p-2 
@@ -34,7 +33,6 @@ export default function Page() {
                         </label>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     )
