@@ -28,6 +28,10 @@ export default function Page() {
                                         <span className='text-xs font-bold'>Follow</span>
                                         <span className='text-xs font-bold'>Subscribe</span>                                        
                                     </div>
+                                    <div className='flex items-center'>
+                                        <span className='text-xs'>Level 1</span>
+                                        <span className='texts-xs'>Online time: 1d 23h 53min</span>
+                                    </div>
                                 </div>
                             </div>
                         </label>
