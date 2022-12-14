@@ -34,8 +34,14 @@ export default function Page() {
                 <div className='pt-3 flex justify-between items-center'>
                     <div>
                         <div className='grid'>
-                            <span className='font-semibold text-lg'>Balance : 370.60€</span>
-                            <span className='font-thin text-sm'>Level 17</span>
+                            <span className='font-semibold text-sm'>Balance : 370.60€</span>
+                            <span className='font-thin text-xs'>Level 17</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='grid'>
+                            <span className='font-semibold text-lg color-sky-700'>Username</span>
+                            <span className='font-thin text-lg color-pink-800'>Sauklis</span>
                         </div>
                     </div>
                     <div>
@@ -56,14 +62,14 @@ export default function Page() {
                 <div className='flex justify-between items-center'>
                     <div>
                         <div className='grid'>
-                            <span className='font-semibold text-lg'>Balance : 370.60€</span>
-                            <span className='font-thin text-sm'>Level 17</span>
+                            <span className='font-semibold text-sm'>Subscribe price : 9.99€</span>
+                            <span className='font-thin text-sm'>Change price</span>
                         </div>
                     </div>
                     <div>
                         <div className='grid'>
-                            <span className='font-semibold text-lg'>Balance : 370.60€</span>
-                            <span className='font-thin text-sm'>Level 17</span>
+                            <span className='font-semibold text-sm'>Time online: 2days 3m 1min</span>
+                            <span className='font-thin text-sm'>Results : Top 14%</span>
                         </div>
                     </div>
                 </div>
