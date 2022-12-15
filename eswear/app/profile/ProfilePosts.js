@@ -12,8 +12,7 @@ const ProfilePosts = () => {
         <div>
             <div className="w-full">
                 <div className="w-full bg-black/40  flex">
-                    <div className='pl-2 pt-2 pb-2 flex-initial'>
-                        <Image src='/others/profile2.jpg' alt='me' width='54' height='54' className='rounded-full float-left' />
+                    <div className='pl-2 pt-2 pb-2 flex-initial'>dd
                     </div>
                     <div className='pl-1 pt-2 flex-initial align-text-top'>
                         <storng className='text-sm font-sans text-emerald-100 leading-3 font-medium text-left'>Username</storng><br/>
