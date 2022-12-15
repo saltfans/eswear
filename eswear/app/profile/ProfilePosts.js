@@ -52,8 +52,6 @@ const ProfilePosts = () => {
                 </span>
                 </div>
             </div>
-            <PostComments />
-            <PostGifts />
         </div>
     </div>
     )
