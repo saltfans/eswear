@@ -12,10 +12,6 @@ import Gifts from './gifts';
 import Navigation from './Navigation';
 //login
 import LoginBtn from './login-btn';
-import { Auth, ThemeSupa } from '@supabase/auth-ui-react'
-import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react'
-import LoginPage from './loginpage';
-
 export default function RootLayout({ children }) {
   return (
     
@@ -33,11 +29,8 @@ export default function RootLayout({ children }) {
           <LoginBtn />
         </div>
       </div>
-      <div>
-      </div>
     </div>
-    <LoginPage />
-    
+
     <div id='homepage2' class=" container list-item sm:grid grid-cols-6 gap-x-2 gap-y-3 m-auto sm:px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3 hidden sm:block'>
 
