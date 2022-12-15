@@ -36,7 +36,7 @@ const ProfileMissions = () => {
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
-                        <div className='flex items-center h-40'>
+                        <div className='flex items-center h-10'>
                             <UserGroupIcon  className='text-red-500 w-8 h-8 py-1 pr-2'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Create 1 profile Post!
@@ -93,7 +93,7 @@ const ProfileMissions = () => {
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
-                        <div className='flex items-center h-40'>
+                        <div className='flex items-center h-10'>
                             <UserGroupIcon  className='text-red-500 w-8 h-8 py-1 pr-2'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Get your 1 subscriber!
