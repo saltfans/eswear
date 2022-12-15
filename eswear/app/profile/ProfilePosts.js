@@ -9,7 +9,7 @@ import PostGifts from './PostGifts';
 
 const ProfilePosts = () => {
     return (
-        <div>
+        <div className='flex flex-wrap gap-1'>
             <div className="w-full">
                 <div className="w-full bg-black/40  flex">
                     <div className='pl-2 pt-2 pb-2 flex-initial'>dd
