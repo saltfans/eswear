@@ -11,7 +11,7 @@ import { EllipsisVerticalIcon, UserGroupIcon } from '@heroicons/react/24/solid';
 const ProfileMissions = () => {
     return (
         <div className='flex flex-wrap gap-1'>
-            <label className='cursor-pointer'>
+            <label className='cursor-pointer w-64'>
                 <input type='radio' className='peer sr-only' name='priceing'/>
                 <div className='w-11/12 mx-w-xl p-2 bg-black/30 text-white rounded-md 
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
@@ -30,7 +30,7 @@ const ProfileMissions = () => {
                     </div>
                 </div>
             </label>
-            <label className='cursor-pointer'>
+            <label className='cursor-pointer w-64'>
                 <input type='radio' className='peer sr-only' name='priceing'/>
                 <div className='w-11/12 mx-w-xl p-2 bg-black/30 text-white rounded-md 
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
@@ -49,7 +49,7 @@ const ProfileMissions = () => {
                     </div>
                 </div>
             </label>
-            <label className='cursor-pointer'>
+            <label className='cursor-pointer w-64'>
                 <input type='radio' className='peer sr-only' name='priceing'/>
                 <div className='w-11/12 mx-w-xl p-2 bg-black/30 text-white rounded-md 
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
@@ -68,7 +68,7 @@ const ProfileMissions = () => {
                     </div>
                 </div>
             </label>
-            <label className='cursor-pointer'>
+            <label className='cursor-pointer w-64'>
                 <input type='radio' className='peer sr-only' name='priceing'/>
                 <div className='w-11/12 mx-w-xl p-2 bg-black/30 text-white rounded-md 
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
@@ -87,7 +87,7 @@ const ProfileMissions = () => {
                     </div>
                 </div>
             </label>
-            <label className='cursor-pointer'>
+            <label className='cursor-pointer w-64'>
                 <input type='radio' className='peer sr-only' name='priceing'/>
                 <div className='w-11/12 mx-w-xl p-2 bg-black/30 text-white rounded-md 
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
@@ -106,7 +106,7 @@ const ProfileMissions = () => {
                     </div>
                 </div>
             </label>
-            <label className='cursor-pointer'>
+            <label className='cursor-pointer w-64'>
                 <input type='radio' className='peer sr-only' name='priceing'/>
                 <div className='w-11/12 mx-w-xl p-2 bg-black/30 text-white rounded-md 
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
