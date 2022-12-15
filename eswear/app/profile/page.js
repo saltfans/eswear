@@ -100,10 +100,11 @@ export default function Page() {
                         <ProfileMissions />
                     </div>
                 </div>
-                <div className='pt-2'>
-                    <div className='grid bg-black/40'>
-                        <ProfilePosts />
-                    </div>
+            </div>
+            <div className='pt-2'>
+                <div className='grid bg-black/40'>
+                    <span>POSTS</span>
+                    <ProfilePosts />
                 </div>
             </div>
         </div>
