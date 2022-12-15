@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
       </div>
     </div>
     
-    <div id='homepage2' class=" container list-item sm:grid grid-cols-6 gap-x-2 gap-y-3 m-auto px-4">
+    <div id='homepage2' class=" container list-item sm:grid grid-cols-6 gap-x-2 gap-y-3 m-auto sm:px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3 hidden sm:block'>
 
         <div class="w-full h-auto pl-4 grid items-center justify-items-center border-b-2 border-pink-600">
@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
           </ul>
         </nav>
       </div> 
-      <div className='bg-black/70 shadow-xl min-h[50px] col-span-3 row-span-3 border-x-4 border-b-4 border-sky-500'>{children}</div>
+      <div className='bg-black/70 shadow-xl min-h[50px] col-span-3 row-span-3 sm:border-x-4 sm:border-b-4 sm:border-sky-500'>{children}</div>
       <div className='bg-black/70 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><RightOne /></div>
       <div className='bg-black/70 rounded-lg shadow-xl h-full col-span-2 row-span-1 hidden sm:block'><Sugesstions /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><Gifts /></div>
