@@ -12,12 +12,11 @@ import Gifts from './gifts';
 import Navigation from './Navigation';
 //login
 import LoginBtn from './login-btn';
-
 import { Auth, ThemeSupa } from '@supabase/auth-ui-react'
 import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react'
-const RootLayout = ({ children }) => {
-  const session = useSession()
-  const supabase = useSupabaseClient()
+import LoginPage from './loginpage';
+
+export default function RootLayout({ children }) {
   return (
     
   <html>
@@ -37,18 +36,7 @@ const RootLayout = ({ children }) => {
       <div>
       </div>
     </div>
-    <div id="homepage" class="">
-      <div className='container  mx-auto list-item sm:grid grid-cols-2 border-b-2 border-sky-500'>
-      <div className="container" style={{ padding: '50px 0 100px 0' }}>
-        {!session ? (
-          <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} theme="dark" />
-        ) : (
-          <p>Account page will go here.</p>
-        )}
-      </div>
-
-      </div>
-    </div>
+    <LoginPage />
     
     <div id='homepage2' class=" container list-item sm:grid grid-cols-6 gap-x-2 gap-y-3 m-auto sm:px-4">
        <div class='w-full min-w-48 h-full bg-black/40 shadow-3xl backdrop-blur-sm row-span-3 hidden sm:block'>
@@ -110,4 +98,3 @@ const RootLayout = ({ children }) => {
   </html>
   )
 }
-export default RootLayout
