@@ -31,17 +31,19 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className='pt-3 flex justify-between items-center'>
-                    <div>
-                        <div className='grid'>
-                            <span className='font-semibold text-sm'>Balance : 370.60€</span>
-                            <span className='font-thin text-xs'>Level 17</span>
-                        </div>
-                    </div>
+                <div className='flex justify-between items-center'>
                     <div>
                         <div className='grid'>
                             <span className='font-semibold text-lg text-sky-700'>Username</span>
                             <span className='font-semibold text-sm text-pink-800'>Sauklis</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex justify-between items-center'>
+                    <div>
+                        <div className='grid'>
+                            <span className='font-semibold text-sm'>Balance : 370.60€</span>
+                            <span className='font-thin text-xs'>Level 17</span>
                         </div>
                     </div>
                     <div>
