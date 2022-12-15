@@ -2,7 +2,7 @@ import Image from 'next/legacy/image';
 import { HeartIcon, UserGroupIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import ProfileMissions from '../Missions';
-import ProfilePosts from './ProfilePosts';
+import ProfilePosts from '../ProfilePosts';
 // app/page.js
 // This file maps to the index route (/)
 export default function Page() {
