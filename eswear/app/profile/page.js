@@ -71,13 +71,25 @@ export default function Page() {
                     </div>
                     <div>
                         <div className='grid'>
+                            <span className='font-thin text-xs'>Time online: 2days 3m 1min</span>
+                            <span className='font-thin text-sm'>Results : Top 14%</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex justify-between items-center'>
+                    <div>
+                        <div className='grid'>
+                            <span className='font-semibold text-sm'>Edit Profile</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='grid'>
                             <span className='font-semibold text-sm'>Roses Shop</span>
                         </div>
                     </div>
                     <div>
                         <div className='grid'>
-                            <span className='font-thin text-xs'>Time online: 2days 3m 1min</span>
-                            <span className='font-thin text-sm'>Results : Top 14%</span>
+                            <span className='font-semibold text-sm'>Get the sallary</span>
                         </div>
                     </div>
                 </div>
