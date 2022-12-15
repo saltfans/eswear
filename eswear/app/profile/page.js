@@ -7,7 +7,7 @@ import ProfilePosts from '../ProfilePosts';
 // This file maps to the index route (/)
 export default function Page() {
     return (
-        <div class='grid place-items-center justify-items-center mt-2'>
+        <div class='grid place-items-center justify-items-center sm:mt-2'>
             <div className='p-8 w-full text-white'>
                 
                 <div className='flex justify-between items-center'>

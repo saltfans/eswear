@@ -4,7 +4,7 @@ import { HeartIcon, GiftIcon, HandThumbUpIcon, HandThumbDownIcon, FireIcon, Arro
 // This file maps to the index route (/)
 export default function Page() {
     return (
-        <div class='grid items-center justify-items-center mt-8'>
+        <div class='grid items-center justify-items-center sm:mt-6'>
             <div>
                 <Image src='/others/swipetest.jpg' alt='me' width='384' height='384' />
                 <p>More details about user here...</p>
