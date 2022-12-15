@@ -18,8 +18,8 @@ const ProfileMissions = () => {
                     peer-checked:ring-kkkk-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
                         <div className='flex items-center h-10'>
-                            <ClockIcon className='text-red-500 w-8 h-8 py-1 pr-20' />
-                            <p className='text-xs font-semibold text-red-500'>
+                            <ClockIcon className='text-yellow-500 w-8 h-8 py-1 pr-20' />
+                            <p className='text-xs font-semibold text-yellow-500'>
                                 Spend 1h online!
                             </p>
                         </div>
@@ -114,7 +114,7 @@ const ProfileMissions = () => {
                     <div className='flex flex-col gap-1'>
                         <div className='flex items-center h-10'>
                         <PhotoIcon  className='text-white w-8 h-8 py-1 pr-2'/>
-                            <p className='text-xs font-semibold text-red-500'>
+                            <p className='text-xs font-semibold text-white'>
                                 Create 5 awsome profile posts!
                             </p>
                         </div>

@@ -2,6 +2,7 @@ import Image from 'next/legacy/image';
 import { HeartIcon, UserGroupIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import ProfileMissions from '../Missions';
+import ProfilePosts from './ProfilePosts';
 // app/page.js
 // This file maps to the index route (/)
 export default function Page() {
@@ -94,9 +95,14 @@ export default function Page() {
                     </div>
                 </div>
                 <div className='pt-3'>
-                    <div className='grid bg-black/20 m-auto'>
+                    <div className='grid bg-black/40 m-auto'>
                         <span className='text-semibold text-white'>MISSIONS</span>
                         <ProfileMissions />
+                    </div>
+                </div>
+                <div className='pt-2'>
+                    <div className='grid bg-black-40'>
+                        <ProfilePosts />
                     </div>
                 </div>
             </div>
