@@ -102,7 +102,7 @@ export default function Page() {
                 </div>
             </div>
             <div className='pt-2'>
-                <div className='grid bg-black/40'>
+                <div className='grid bg-white/40'>
                     <span>POSTS</span>
                     <ProfilePosts />
                 </div>

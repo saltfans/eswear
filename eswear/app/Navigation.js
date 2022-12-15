@@ -9,7 +9,7 @@ const Navigation = () => {
     { name: "News", href: "/notifications", icon: <BellAlertIcon className="h-5 w-5 mx-2"/>},
     { name: "Swipe", href: "/swipe", icon: <HeartIcon className="h-5 w-5 mx-2 text-green-500"/> },
     { name: "Chat", href: "/messages", icon: <ChatBubbleBottomCenterTextIcon className="h-5 w-5 mx-2"/>},
-    { name: "More", href: "#", icon: <EllipsisHorizontalIcon className="h-5 w-5 mx-2"/> },
+    { name: "More", href: "/profile", icon: <EllipsisHorizontalIcon className="h-5 w-5 mx-2 text-green-500"/> },
   ];
   const [active, setActive] = useState(0);
   return (
