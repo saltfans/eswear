@@ -17,7 +17,7 @@ const ProfileMissions = () => {
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
                     peer-checked:ring-kkkk-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
-                        <div className='flex items-center'>
+                        <div className='flex items-center h-10'>
                             <Image src='/others/roses/rose-red.png' width='40' height='40'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Spend 1h online!
@@ -55,7 +55,7 @@ const ProfileMissions = () => {
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
-                        <div className='flex items-center'>
+                        <div className='flex items-center h-10'>
                             <Image src='/others/roses/rose-red.png' width='40' height='40'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Get Verificed Profile!
@@ -74,7 +74,7 @@ const ProfileMissions = () => {
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
                     peer-checked:ring-kkkk-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
-                        <div className='flex items-center'>
+                        <div className='flex items-center h-10'>
                             <Image src='/others/roses/rose-red.png' width='40' height='40'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Get Your First 10 Red Roses!
@@ -112,7 +112,7 @@ const ProfileMissions = () => {
                     hover:shadow ring-2 ring-transparent peer-checked:text-blue-300 
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
-                        <div className='flex items-center'>
+                        <div className='flex items-center h-10'>
                             <Image src='/others/roses/rose-red.png' width='40' height='40'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Create 5 awsome profile posts!
