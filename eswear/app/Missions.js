@@ -37,7 +37,7 @@ const ProfileMissions = () => {
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
                         <div className='flex items-center'>
-                            <UserGroupIcon  className='text-red-500 w-8 h-8'/>
+                            <UserGroupIcon  className='text-red-500 w-8 h-8 py-1 pr-2'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Create 1 profile Post!
                             </p>
