@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from 'next/legacy/image';
-import { EllipsisVerticalIcon, UserGroupIcon } from '@heroicons/react/24/solid';
+import { EllipsisVerticalIcon, UserGroupIcon, CheckBadgeIcon, ClockIcon, PhotoIcon } from '@heroicons/react/24/solid';
 
 
 
@@ -18,7 +18,7 @@ const ProfileMissions = () => {
                     peer-checked:ring-kkkk-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
                         <div className='flex items-center h-10'>
-                            <Image src='/others/roses/rose-red.png' width='40' height='40'/>
+                            <ClockIcon className='text-red-500 w-8 h-8 py-1 pr-20' />
                             <p className='text-xs font-semibold text-red-500'>
                                 Spend 1h online!
                             </p>
@@ -37,8 +37,8 @@ const ProfileMissions = () => {
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
                         <div className='flex items-center h-10'>
-                            <UserGroupIcon  className='text-red-500 w-8 h-8 py-1 pr-2'/>
-                            <p className='text-xs font-semibold text-red-500'>
+                            <PhotoIcon  className='text-white w-8 h-8 py-1 pr-2'/>
+                            <p className='text-xs font-semibold text-white'>
                                 Create 1 profile Post!
                             </p>
                         </div>
@@ -56,8 +56,8 @@ const ProfileMissions = () => {
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
                         <div className='flex items-center h-10'>
-                            <Image src='/others/roses/rose-red.png' width='40' height='40'/>
-                            <p className='text-xs font-semibold text-red-500'>
+                            <CheckBadgeIcon className='text-green-500 w-8 h-8 py-1 pr-2'/>
+                            <p className='text-xs font-semibold text-green-500'>
                                 Get Verificed Profile!
                             </p>
                         </div>
@@ -113,7 +113,7 @@ const ProfileMissions = () => {
                     peer-checked:ring-pink-500 peer-checked:ring-offset-2'>
                     <div className='flex flex-col gap-1'>
                         <div className='flex items-center h-10'>
-                            <Image src='/others/roses/rose-red.png' width='40' height='40'/>
+                        <PhotoIcon  className='text-white w-8 h-8 py-1 pr-2'/>
                             <p className='text-xs font-semibold text-red-500'>
                                 Create 5 awsome profile posts!
                             </p>
