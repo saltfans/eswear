@@ -2,7 +2,7 @@ import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 import FacebookProvider from "next-auth/providers/facebook";
 import GoogleProvider from "next-auth/providers/google";
-import { FireBaseAdapter } from "@next-auth/firebase-adapter";
+import { FirebaseAdapter } from "@next-auth/firebase-adapter";
 import { Firestore } from "firebase/firestore";
 import { db } from "../../../firebase.config";
 import * as firestoreFunctions from "firebase/firestore";
@@ -15,7 +15,7 @@ export const authOptions = ({
         clientSecret: process.env.GOOGLE_CLIENT_SECRET
       }),
   ],
-  adapter: FirestoreAdapter({
+  adapter: FirebaseAdapter({
     db : db,
     ...firestoreFunctions,
   }),
