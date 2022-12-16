@@ -13,6 +13,7 @@ import Navigation from './Navigation';
 //login
 import LoginBtn from './login-btn';
 import { FcGoogle } from 'react-icons/fc';
+import { signIn, signOut } from 'next-auth/react';
 export default function RootLayout({ children }) {
   return (
     
@@ -33,7 +34,7 @@ export default function RootLayout({ children }) {
     </div>
 
     <div className='flex container list-item w-screen items-center justify-center bg-black/50'>
-      <div className='flex cursor-pointer h-auto w-64 items-center justify-center rounded-md border border-gray-30'>
+      <div onClick={signIn} className='flex cursor-pointer h-auto w-64 items-center justify-center rounded-md border border-gray-30'>
         <FcGoogle fontSize={30} className='mr-2'/>
         <span>Sing in with Google</span>
       </div>

@@ -4,6 +4,7 @@ import FacebookProvider from "next-auth/providers/facebook";
 import GoogleProvider from "next-auth/providers/google";
 import { FireBaseAdapter } from "@next-auth/firebase-adapter";
 import { Firestore } from "firebase/firestore";
+import { db } from "../../../firebase.config";
 export const authOptions = {
   // Configure one or more authentication providers
   providers: [
@@ -17,7 +18,7 @@ export const authOptions = {
         clientSecret: process.env.GOOGLE_CLIENT_SECRET
       }),
   ],
-  adapter: FirestoreAdapter(firestore),
+  adapter: FirestoreAdapter(db),
 
   secret: "LlKq6ZtYbCx",
 }
