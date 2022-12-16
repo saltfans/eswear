@@ -12,6 +12,7 @@ import Gifts from './gifts';
 import Navigation from './Navigation';
 //login
 import LoginBtn from './login-btn';
+import { FcGoogle } from 'react-icons/fc';
 export default function RootLayout({ children }) {
   return (
     
@@ -28,6 +29,13 @@ export default function RootLayout({ children }) {
         <div className='float-left m-6'>
           <LoginBtn />
         </div>
+      </div>
+    </div>
+
+    <div className='flex container list-item w-screen items-center justify-center bg-slate-50'>
+      <div className='flex h-auto w-64 items-center justify-center rounded-md border border-gray-30'>
+        <FcGoogle fontSize={30} />
+        <span>Sing in with Google</span>
       </div>
     </div>
 
