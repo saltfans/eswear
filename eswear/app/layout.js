@@ -32,9 +32,9 @@ export default function RootLayout({ children }) {
       </div>
     </div>
 
-    <div className='flex container list-item w-screen items-center justify-center bg-slate-50'>
-      <div className='flex h-auto w-64 items-center justify-center rounded-md border border-gray-30'>
-        <FcGoogle fontSize={30} />
+    <div className='flex container list-item w-screen items-center justify-center bg-black/50'>
+      <div className='flex cursor-pointer h-auto w-64 items-center justify-center rounded-md border border-gray-30'>
+        <FcGoogle fontSize={30} className='mr-2'/>
         <span>Sing in with Google</span>
       </div>
     </div>
