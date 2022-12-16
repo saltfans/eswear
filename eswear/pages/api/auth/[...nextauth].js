@@ -6,7 +6,7 @@ import { FireBaseAdapter } from "@next-auth/firebase-adapter";
 import { Firestore } from "firebase/firestore";
 import { db } from "../../../firebase.config";
 import * as firestoreFunctions from "firebase/firestore";
-export const authOptions = {
+export const authOptions = ({
   // Configure one or more authentication providers
   providers: [
     // ...add more providers here
@@ -21,5 +21,5 @@ export const authOptions = {
   }),
 
   secret: "LlKq6ZtYbCx",
-}
+})
 export default NextAuth(authOptions)
