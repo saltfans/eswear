@@ -91,7 +91,6 @@ export default function RootLayout({ children }) {
       <div className='bg-black/70 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><RightOne /></div>
       <div className='bg-black/70 rounded-lg shadow-xl h-full col-span-2 row-span-1 hidden sm:block'><Sugesstions /></div>
       <div className='bg-black/40 rounded-lg shadow-xl min-h[50px] col-span-2 row-span-1 hidden sm:block'><Gifts /></div>
-      <div className='bg-black/40 shadow-xl min-h[50px] col-span-6 hidden sm:block'>Foooter here telfenam paslepts</div>
       <Navigation />     
 
       
