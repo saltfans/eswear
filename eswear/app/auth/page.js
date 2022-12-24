@@ -1,11 +1,15 @@
-import React from "react"
-import Login from "./Login"
-import { useAuth } from './AuthContext'
+import Image from 'next/image'
+import Login from '../components/Login'
+import UserDashboard from '../components/UserDashboard'
+import { useAuth } from '../context/AuthContext'
 
-export default function LoginPage() {
-    return (
-        <>
-            <Login />  
-        </>
-    )
+export default function Home() {
+  const { currentUser } = useAuth()
+
+  return (
+    < >
+      {!currentUser && <Login />}
+      {currentUser && <UserDashboard/>}
+    </>
+  )
 }
