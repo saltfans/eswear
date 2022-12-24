@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Login from '../components/Login'
-import UserDashboard from '../components/UserDashboard'
-import { useAuth } from '../context/AuthContext'
+import Login from '../Login'
+import UserDashboard from '../UserDashboard'
+import { useAuth } from '../AuthContext'
 
 export default function Home() {
   const { currentUser } = useAuth()
