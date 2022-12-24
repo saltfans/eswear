@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { doc, getDoc } from 'firebase/firestore'
 import { useAuth } from './AuthContext'
-import { db } from '../firebase'
+import { db } from '../../firebase'
 
 export default function useFetchTodos() {
     const [loading, setLoading] = useState(true)
